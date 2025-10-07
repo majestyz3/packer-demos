@@ -1,0 +1,4955 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:5592bbc3-22a1-460c-8191-adf1676f1b31",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-10-07T13:34:21Z",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "Mondoo, Inc.",
+          "name": "cnquery",
+          "version": "12.4.0"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "c7d3d42b-d83b-43fd-8fe9-4d8bc840eec7",
+      "type": "device",
+      "name": "ip-10-0-2-111.us-east-2.compute.internal"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "b3e34cba-b99e-4145-9cbc-db7115b67e10",
+      "type": "operating-system",
+      "name": "redhat",
+      "version": "10.0",
+      "cpe": "cpe:2.3:o:redhat:enterprise_linux:10.0:*:*:*:*:*:*:*"
+    },
+    {
+      "bom-ref": "4c2efef6-e2c4-485e-8d61-bf9765d6b87b",
+      "type": "library",
+      "name": "libgcc",
+      "version": "14.2.1-7.el10",
+      "purl": "pkg:rpm/redhat/libgcc@14.2.1-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "184d4999-060c-44c6-96cd-09dd0ade6a57",
+      "type": "library",
+      "name": "linux-firmware-whence",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/linux-firmware-whence@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "520c3d12-39ec-498e-93fa-49fe6b0f2a0a",
+      "type": "library",
+      "name": "tzdata",
+      "version": "2025b-1.el10",
+      "purl": "pkg:rpm/redhat/tzdata@2025b-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3da0e817-0ead-47e8-afea-5a058a9ccaf4",
+      "type": "library",
+      "name": "fonts-filesystem",
+      "version": "1:2.0.5-18.el10",
+      "purl": "pkg:rpm/redhat/fonts-filesystem@1%3A2.0.5-18.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "494e3a02-1dcd-4b86-857b-b7e63820a187",
+      "type": "library",
+      "name": "hunspell-filesystem",
+      "version": "1.7.2-9.el10",
+      "purl": "pkg:rpm/redhat/hunspell-filesystem@1.7.2-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a9e659d8-5f60-4416-bde4-e944c2a53634",
+      "type": "library",
+      "name": "google-noto-fonts-common",
+      "version": "20240401-5.el10",
+      "purl": "pkg:rpm/redhat/google-noto-fonts-common@20240401-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9815fe52-bd2d-451e-9501-e06d782721fc",
+      "type": "library",
+      "name": "subscription-manager-rhsm-certificates",
+      "version": "20220623-6.el10",
+      "purl": "pkg:rpm/redhat/subscription-manager-rhsm-certificates@20220623-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "99fac949-2f47-47fb-8f0b-3f1b664b754d",
+      "type": "library",
+      "name": "hwdata",
+      "version": "0.379-10.4.el10",
+      "purl": "pkg:rpm/redhat/hwdata@0.379-10.4.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "caa824f6-286a-40f0-aab4-bfbac24dc7f8",
+      "type": "library",
+      "name": "google-noto-sans-mono-vf-fonts",
+      "version": "20240401-5.el10",
+      "purl": "pkg:rpm/redhat/google-noto-sans-mono-vf-fonts@20240401-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e74a87de-3df8-4684-baef-c72cbd484649",
+      "type": "library",
+      "name": "google-noto-sans-vf-fonts",
+      "version": "20240401-5.el10",
+      "purl": "pkg:rpm/redhat/google-noto-sans-vf-fonts@20240401-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3419e5bf-eba7-4099-958e-2118fbe36bab",
+      "type": "library",
+      "name": "google-noto-serif-vf-fonts",
+      "version": "20240401-5.el10",
+      "purl": "pkg:rpm/redhat/google-noto-serif-vf-fonts@20240401-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c0e70827-59b2-4571-b7e2-18bbff39366b",
+      "type": "library",
+      "name": "redhat-mono-vf-fonts",
+      "version": "4.0.3-14.el10",
+      "purl": "pkg:rpm/redhat/redhat-mono-vf-fonts@4.0.3-14.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e381f2ae-f2bd-486c-bd67-f4cd3207f411",
+      "type": "library",
+      "name": "redhat-text-vf-fonts",
+      "version": "4.0.3-14.el10",
+      "purl": "pkg:rpm/redhat/redhat-text-vf-fonts@4.0.3-14.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "79fd2d5f-bca9-4188-bcf9-fe480ff5a336",
+      "type": "library",
+      "name": "default-fonts-core-sans",
+      "version": "4.1-3.el10",
+      "purl": "pkg:rpm/redhat/default-fonts-core-sans@4.1-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "640f6097-165b-49a9-88ba-57f4b78a6917",
+      "type": "library",
+      "name": "langpacks-fonts-en",
+      "version": "4.1-3.el10",
+      "purl": "pkg:rpm/redhat/langpacks-fonts-en@4.1-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0363d895-d1cd-4cc0-8509-8e25ef38bd5b",
+      "type": "library",
+      "name": "amd-ucode-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/amd-ucode-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "564b379b-a2b8-4640-8287-fc6b90f551c7",
+      "type": "library",
+      "name": "atheros-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/atheros-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fcbbc0eb-0f62-4aa5-a4d2-95b359a2dc56",
+      "type": "library",
+      "name": "brcmfmac-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/brcmfmac-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "770e96ca-69ee-4846-8762-697a048a344d",
+      "type": "library",
+      "name": "cirrus-audio-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/cirrus-audio-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a2478ff9-d13c-423b-892c-846389311cf4",
+      "type": "library",
+      "name": "intel-audio-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/intel-audio-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7b175ac5-29e6-4e89-941c-92011ed779f8",
+      "type": "library",
+      "name": "mt7xxx-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/mt7xxx-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8719da95-274c-4cb1-89ce-8362b419f3e7",
+      "type": "library",
+      "name": "nxpwireless-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/nxpwireless-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2302e91b-53ba-4077-94ec-94d98e08eac9",
+      "type": "library",
+      "name": "realtek-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/realtek-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7ed90f9e-cf4d-4cb9-9d53-66e96d60bc21",
+      "type": "library",
+      "name": "tiwilink-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/tiwilink-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dc6c9b1c-ca1b-4c94-be3f-bf841113b27d",
+      "type": "library",
+      "name": "amd-gpu-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/amd-gpu-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d58ffba9-3622-47b4-9f3c-9b1ef60558be",
+      "type": "library",
+      "name": "intel-gpu-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/intel-gpu-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9d3bf419-0aaf-4803-bcc2-e9405dad9342",
+      "type": "library",
+      "name": "nvidia-gpu-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/nvidia-gpu-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "baa57fe1-c440-4cd3-98ac-d8a8156b0cdc",
+      "type": "library",
+      "name": "linux-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/linux-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c40c1afd-7f1f-4aef-a063-78885f3f191b",
+      "type": "library",
+      "name": "xkeyboard-config",
+      "version": "2.41-3.el10",
+      "purl": "pkg:rpm/redhat/xkeyboard-config@2.41-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ea63af4f-d910-484f-8604-355791dfccf7",
+      "type": "library",
+      "name": "gawk-all-langpacks",
+      "version": "5.3.0-6.el10",
+      "purl": "pkg:rpm/redhat/gawk-all-langpacks@5.3.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "bb05665a-8d7f-4bac-9d68-a5753487e8cf",
+      "type": "library",
+      "name": "catatonit",
+      "version": "5:0.2.1-1.el10",
+      "purl": "pkg:rpm/redhat/catatonit@5%3A0.2.1-1.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=5"
+    },
+    {
+      "bom-ref": "4335d48a-a7c3-4fe9-a09b-3c1da1fb9b14",
+      "type": "library",
+      "name": "vim-data",
+      "version": "2:9.1.083-5.el10",
+      "purl": "pkg:rpm/redhat/vim-data@2%3A9.1.083-5.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "a1cf1c60-07be-457a-98a1-127a80d9285a",
+      "type": "library",
+      "name": "redhat-release-eula",
+      "version": "10.0-34.el10",
+      "purl": "pkg:rpm/redhat/redhat-release-eula@10.0-34.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1880db74-b900-4526-80ff-0e1d56f7585f",
+      "type": "library",
+      "name": "redhat-release",
+      "version": "10.0-34.el10",
+      "purl": "pkg:rpm/redhat/redhat-release@10.0-34.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a83cd478-371a-4dfc-9aef-eac913b2d587",
+      "type": "library",
+      "name": "setup",
+      "version": "2.14.5-4.el10",
+      "purl": "pkg:rpm/redhat/setup@2.14.5-4.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6de49b2d-bbf3-48ac-8f34-286d436e0e33",
+      "type": "library",
+      "name": "filesystem",
+      "version": "3.18-16.el10",
+      "purl": "pkg:rpm/redhat/filesystem@3.18-16.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e17b4002-e8d6-42e5-989d-c1a122705a76",
+      "type": "library",
+      "name": "efi-filesystem",
+      "version": "6-6.el10",
+      "purl": "pkg:rpm/redhat/efi-filesystem@6-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "626ecaeb-edf1-4bc5-8cef-a7ba40176ee3",
+      "type": "library",
+      "name": "basesystem",
+      "version": "11-22.el10",
+      "purl": "pkg:rpm/redhat/basesystem@11-22.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "68044ea4-834c-4408-bc20-52555f58bde8",
+      "type": "library",
+      "name": "quota-nls",
+      "version": "1:4.09-9.el10",
+      "purl": "pkg:rpm/redhat/quota-nls@1%3A4.09-9.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "be8734bb-e000-4d7a-87ca-98aaa25b6722",
+      "type": "library",
+      "name": "publicsuffix-list-dafsa",
+      "version": "20240107-5.el10",
+      "purl": "pkg:rpm/redhat/publicsuffix-list-dafsa@20240107-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "670afcf4-7110-432c-be98-1c19d9a3f542",
+      "type": "library",
+      "name": "pkgconf-m4",
+      "version": "2.1.0-3.el10",
+      "purl": "pkg:rpm/redhat/pkgconf-m4@2.1.0-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b7201712-03c2-4f86-9860-d21b90486e9b",
+      "type": "library",
+      "name": "pcre2-syntax",
+      "version": "10.44-1.el10.3",
+      "purl": "pkg:rpm/redhat/pcre2-syntax@10.44-1.el10.3?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "757d0e3e-d565-4737-893c-20e0281f7032",
+      "type": "library",
+      "name": "ncurses-base",
+      "version": "6.4-14.20240127.el10",
+      "purl": "pkg:rpm/redhat/ncurses-base@6.4-14.20240127.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "116766dd-ee89-4f10-8661-8c08364cab49",
+      "type": "library",
+      "name": "glibc-gconv-extra",
+      "version": "2.39-46.el10_0.3",
+      "purl": "pkg:rpm/redhat/glibc-gconv-extra@2.39-46.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c47ac65e-e824-4325-b301-0b95b29b06a6",
+      "type": "library",
+      "name": "glibc-langpack-en",
+      "version": "2.39-46.el10_0.3",
+      "purl": "pkg:rpm/redhat/glibc-langpack-en@2.39-46.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "31d4b78d-deb4-43bb-9183-73063cbb9000",
+      "type": "library",
+      "name": "glibc-common",
+      "version": "2.39-46.el10_0.3",
+      "purl": "pkg:rpm/redhat/glibc-common@2.39-46.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e2b87a02-da55-4f01-b11a-83d7e130dd48",
+      "type": "library",
+      "name": "glibc",
+      "version": "2.39-46.el10_0.3",
+      "purl": "pkg:rpm/redhat/glibc@2.39-46.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "70b509c4-1de2-409b-abb0-287bacdb28a7",
+      "type": "library",
+      "name": "ncurses-libs",
+      "version": "6.4-14.20240127.el10",
+      "purl": "pkg:rpm/redhat/ncurses-libs@6.4-14.20240127.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7c42aa1f-3bc4-4897-a2bb-f4a9ecfc5c83",
+      "type": "library",
+      "name": "bash",
+      "version": "5.2.26-6.el10",
+      "purl": "pkg:rpm/redhat/bash@5.2.26-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fc9583b9-4179-44da-9446-334899f86d6a",
+      "type": "library",
+      "name": "zlib-ng-compat",
+      "version": "2.2.3-1.el10",
+      "purl": "pkg:rpm/redhat/zlib-ng-compat@2.2.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0b49cb5d-30e9-48d8-836d-1427df78c704",
+      "type": "library",
+      "name": "libuuid",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/libuuid@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dcc46991-7cd5-4a68-88e7-5bddf61077a0",
+      "type": "library",
+      "name": "libblkid",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/libblkid@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5a0de458-2ef1-44b5-9c80-a4575610e3db",
+      "type": "library",
+      "name": "xz-libs",
+      "version": "1:5.6.2-4.el10_0",
+      "purl": "pkg:rpm/redhat/xz-libs@1%3A5.6.2-4.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "ec416a72-ba56-4092-a7b4-4295525c4634",
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.12.5-9.el10_0",
+      "purl": "pkg:rpm/redhat/libxml2@2.12.5-9.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "60855f39-e82a-4d40-9581-e22acc08f34f",
+      "type": "library",
+      "name": "libzstd",
+      "version": "1.5.5-9.el10",
+      "purl": "pkg:rpm/redhat/libzstd@1.5.5-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "32b2ade8-7ed2-49f0-b3c4-e600ca389c5d",
+      "type": "library",
+      "name": "popt",
+      "version": "1.19-8.el10",
+      "purl": "pkg:rpm/redhat/popt@1.19-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4441b4af-3f6e-47ea-a079-3f61ca560974",
+      "type": "library",
+      "name": "readline",
+      "version": "8.2-11.el10",
+      "purl": "pkg:rpm/redhat/readline@8.2-11.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "eb1a5f24-5703-487d-a7f1-ecfec2047fbe",
+      "type": "library",
+      "name": "libstdc++",
+      "version": "14.2.1-7.el10",
+      "purl": "pkg:rpm/redhat/libstdc%2B%2B@14.2.1-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d69a9d68-d274-4f08-a91d-b9dcef0f7514",
+      "type": "library",
+      "name": "libxcrypt",
+      "version": "4.4.36-10.el10",
+      "purl": "pkg:rpm/redhat/libxcrypt@4.4.36-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "834fa428-2e4e-416c-b506-1a74f6d5801d",
+      "type": "library",
+      "name": "bzip2-libs",
+      "version": "1.0.8-25.el10",
+      "purl": "pkg:rpm/redhat/bzip2-libs@1.0.8-25.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "623c93ae-c188-46c7-9c0a-c41a98cb0b6b",
+      "type": "library",
+      "name": "elfutils-libelf",
+      "version": "0.192-6.el10_0",
+      "purl": "pkg:rpm/redhat/elfutils-libelf@0.192-6.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8ef06486-0ddd-4848-ae4f-32c4da959bc0",
+      "type": "library",
+      "name": "telnet",
+      "version": "1:0.17-94.el10",
+      "purl": "pkg:rpm/redhat/telnet@1%3A0.17-94.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "84e02d35-74f7-4247-bc06-429521c2ee61",
+      "type": "library",
+      "name": "libcom_err",
+      "version": "1.47.1-3.el10",
+      "purl": "pkg:rpm/redhat/libcom_err@1.47.1-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "81ae7373-48ba-4857-927f-9ea1608fee71",
+      "type": "library",
+      "name": "keyutils-libs",
+      "version": "1.6.3-5.el10",
+      "purl": "pkg:rpm/redhat/keyutils-libs@1.6.3-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a79d4aec-7b91-4ea7-a4ff-6a4b2ed65e85",
+      "type": "library",
+      "name": "libffi",
+      "version": "3.4.4-9.el10",
+      "purl": "pkg:rpm/redhat/libffi@3.4.4-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3c326a43-af9b-4d3b-83cf-4b6458c37409",
+      "type": "library",
+      "name": "nspr",
+      "version": "4.36.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nspr@4.36.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e4d99318-0cce-47bb-8f07-7434fff0557b",
+      "type": "library",
+      "name": "libknet1",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "71bc3c01-084e-45f8-81c5-25ee6a8959ad",
+      "type": "library",
+      "name": "nss-util",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss-util@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e0458a24-b5a1-4b03-b69b-74055e5d1a83",
+      "type": "library",
+      "name": "sqlite-libs",
+      "version": "3.46.1-5.el10_0",
+      "purl": "pkg:rpm/redhat/sqlite-libs@3.46.1-5.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a06f1e74-266c-4f55-ac3b-81677a34d608",
+      "type": "library",
+      "name": "crypto-policies",
+      "version": "20250214-1.gitfd9b9b9.el10_0.1",
+      "purl": "pkg:rpm/redhat/crypto-policies@20250214-1.gitfd9b9b9.el10_0.1?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c8cc0b0f-6113-457d-80e3-c220d7202018",
+      "type": "library",
+      "name": "libgpg-error",
+      "version": "1.50-2.el10",
+      "purl": "pkg:rpm/redhat/libgpg-error@1.50-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "465ade6d-45be-44d2-a535-7ace68fe4149",
+      "type": "library",
+      "name": "libqb",
+      "version": "2.0.8-6.el10",
+      "purl": "pkg:rpm/redhat/libqb@2.0.8-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e121618d-ba98-44a3-b965-453c65780aa7",
+      "type": "library",
+      "name": "gmp",
+      "version": "1:6.2.1-10.el10",
+      "purl": "pkg:rpm/redhat/gmp@1%3A6.2.1-10.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "59b51aef-df19-49e6-8e72-72095175a7c1",
+      "type": "library",
+      "name": "json-c",
+      "version": "0.18-3.el10",
+      "purl": "pkg:rpm/redhat/json-c@0.18-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1b61c81a-2fa4-4677-852b-f1ae56db8b41",
+      "type": "library",
+      "name": "pcre2",
+      "version": "10.44-1.el10.3",
+      "purl": "pkg:rpm/redhat/pcre2@10.44-1.el10.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a84d0ea5-573c-4255-a6b4-64535f2b8204",
+      "type": "library",
+      "name": "grep",
+      "version": "3.11-10.el10",
+      "purl": "pkg:rpm/redhat/grep@3.11-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "191aee02-34d8-4c12-b251-070675bfa9c1",
+      "type": "library",
+      "name": "alternatives",
+      "version": "1.30-2.el10",
+      "purl": "pkg:rpm/redhat/alternatives@1.30-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3c2a3348-a92e-4564-8827-dfc517c7b42e",
+      "type": "library",
+      "name": "gdbm-libs",
+      "version": "1:1.23-12.el10_0",
+      "purl": "pkg:rpm/redhat/gdbm-libs@1%3A1.23-12.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "61b413ff-49dd-4812-978f-68041993fb77",
+      "type": "library",
+      "name": "libattr",
+      "version": "2.5.2-5.el10",
+      "purl": "pkg:rpm/redhat/libattr@2.5.2-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3a3c7f28-e8c0-46df-bbd8-283c13b275d2",
+      "type": "library",
+      "name": "libacl",
+      "version": "2.3.2-4.el10",
+      "purl": "pkg:rpm/redhat/libacl@2.3.2-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fc3fb771-d5ab-4b91-b494-c3f70eb4b46f",
+      "type": "library",
+      "name": "libcap-ng",
+      "version": "0.8.4-6.el10",
+      "purl": "pkg:rpm/redhat/libcap-ng@0.8.4-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "304eab8c-f128-4914-8061-83f2ddff3d91",
+      "type": "library",
+      "name": "audit-libs",
+      "version": "4.0.3-1.el10",
+      "purl": "pkg:rpm/redhat/audit-libs@4.0.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "92bf23dc-7100-4afc-b28c-d3bdd48f3eee",
+      "type": "library",
+      "name": "libmnl",
+      "version": "1.0.5-7.el10",
+      "purl": "pkg:rpm/redhat/libmnl@1.0.5-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d1956d22-dfad-48d1-a627-0a04853650a6",
+      "type": "library",
+      "name": "libtalloc",
+      "version": "2.4.2-106.el10",
+      "purl": "pkg:rpm/redhat/libtalloc@2.4.2-106.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a1bc7083-f902-4e3b-95f7-c9fc34f52a70",
+      "type": "library",
+      "name": "libunistring",
+      "version": "1.1-10.el10",
+      "purl": "pkg:rpm/redhat/libunistring@1.1-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7e7b1f77-75fc-4427-a731-7f217445ed67",
+      "type": "library",
+      "name": "libidn2",
+      "version": "2.3.7-3.el10",
+      "purl": "pkg:rpm/redhat/libidn2@2.3.7-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "36c5a003-d63f-4330-8245-d8b8c41edd23",
+      "type": "library",
+      "name": "grub2-common",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-common@1%3A2.12-15.el10_0?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "851c938a-2ff2-49d1-9878-a176122d8d83",
+      "type": "library",
+      "name": "libedit",
+      "version": "3.1-52.20230828cvs.el10",
+      "purl": "pkg:rpm/redhat/libedit@3.1-52.20230828cvs.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "441424b7-981d-4aaa-9d04-a96e1bb58723",
+      "type": "library",
+      "name": "dmidecode",
+      "version": "1:3.6-3.el10",
+      "purl": "pkg:rpm/redhat/dmidecode@1%3A3.6-3.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "5cbc92cc-9dfa-4355-82eb-005100e13d93",
+      "type": "library",
+      "name": "expat",
+      "version": "2.7.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/expat@2.7.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ea871015-7e5c-4360-81ee-37e60e66b74a",
+      "type": "library",
+      "name": "jansson",
+      "version": "2.14-3.el10",
+      "purl": "pkg:rpm/redhat/jansson@2.14-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cfc6a234-18e5-42f5-a959-bf5f55f44a76",
+      "type": "library",
+      "name": "libnl3",
+      "version": "3.11.0-1.el10",
+      "purl": "pkg:rpm/redhat/libnl3@3.11.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4a6e01e9-1245-4e42-b047-3ba000450537",
+      "type": "library",
+      "name": "libseccomp",
+      "version": "2.5.3-10.el10",
+      "purl": "pkg:rpm/redhat/libseccomp@2.5.3-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "97ccfcd2-1f04-45ac-a594-7f88b6d215de",
+      "type": "library",
+      "name": "libsepol",
+      "version": "3.8-1.el10",
+      "purl": "pkg:rpm/redhat/libsepol@3.8-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ff483170-f181-47f8-b027-3b2a81444289",
+      "type": "library",
+      "name": "libselinux",
+      "version": "3.8-2.el10_0",
+      "purl": "pkg:rpm/redhat/libselinux@3.8-2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "79ef4fb7-1fa3-413a-a2bb-33673e6d3486",
+      "type": "library",
+      "name": "sed",
+      "version": "4.9-3.el10",
+      "purl": "pkg:rpm/redhat/sed@4.9-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2d145629-89ec-4951-9bfb-1c981f5d5e50",
+      "type": "library",
+      "name": "libmount",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/libmount@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5e3c4cc7-5b97-4021-9ea0-46695e126f7e",
+      "type": "library",
+      "name": "libtasn1",
+      "version": "4.20.0-1.el10",
+      "purl": "pkg:rpm/redhat/libtasn1@4.20.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "28bc7843-33a6-4c4e-89bc-1a939a405c14",
+      "type": "library",
+      "name": "p11-kit",
+      "version": "0.25.5-7.el10",
+      "purl": "pkg:rpm/redhat/p11-kit@0.25.5-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cf437a46-8655-4087-99cd-0a608df59e7c",
+      "type": "library",
+      "name": "findutils",
+      "version": "1:4.10.0-5.el10",
+      "purl": "pkg:rpm/redhat/findutils@1%3A4.10.0-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "0b02c861-a2eb-413d-9425-424dd018668e",
+      "type": "library",
+      "name": "libsemanage",
+      "version": "3.8.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/libsemanage@3.8.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fdb66d5e-b14b-4e24-bf48-45399cc2b7ea",
+      "type": "library",
+      "name": "corosynclib",
+      "version": "3.1.9-1.el10_0.1",
+      "purl": "pkg:rpm/redhat/corosynclib@3.1.9-1.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "69ddf412-14dc-4a66-abdf-2e9d1ae44f4f",
+      "type": "library",
+      "name": "libassuan",
+      "version": "2.5.6-6.el10",
+      "purl": "pkg:rpm/redhat/libassuan@2.5.6-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "665f4256-a16b-445c-9b0d-5b2f58f030fe",
+      "type": "library",
+      "name": "libbpf",
+      "version": "2:1.5.0-4.el10",
+      "purl": "pkg:rpm/redhat/libbpf@2%3A1.5.0-4.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "59bf461a-ddde-4ad3-9dd0-6a528bdc28ee",
+      "type": "library",
+      "name": "libxslt",
+      "version": "1.1.39-8.el10_0",
+      "purl": "pkg:rpm/redhat/libxslt@1.1.39-8.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d99ee008-7dcd-4b86-a6c0-6a0664123a6b",
+      "type": "library",
+      "name": "libfdisk",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/libfdisk@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "651e3638-bafd-48f4-ac0a-e4de08070967",
+      "type": "library",
+      "name": "psmisc",
+      "version": "23.6-8.el10",
+      "purl": "pkg:rpm/redhat/psmisc@23.6-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2ecb4ae8-70dd-4bfc-8049-3f060c10d5a4",
+      "type": "library",
+      "name": "libaio",
+      "version": "0.3.111-22.el10",
+      "purl": "pkg:rpm/redhat/libaio@0.3.111-22.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4483576e-0fcc-49e3-a55d-f15c93e56378",
+      "type": "library",
+      "name": "libeconf",
+      "version": "0.6.2-4.el10",
+      "purl": "pkg:rpm/redhat/libeconf@0.6.2-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d06442b2-367a-40b5-8575-ad095f9d9197",
+      "type": "library",
+      "name": "pam-libs",
+      "version": "1.6.1-7.el10",
+      "purl": "pkg:rpm/redhat/pam-libs@1.6.1-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c99cae7e-9285-48fe-92fe-84465cc31c33",
+      "type": "library",
+      "name": "libcap",
+      "version": "2.69-7.el10",
+      "purl": "pkg:rpm/redhat/libcap@2.69-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e22739ae-5224-4f95-bc01-0bc72bdc767c",
+      "type": "library",
+      "name": "systemd-libs",
+      "version": "257-9.el10_0.1",
+      "purl": "pkg:rpm/redhat/systemd-libs@257-9.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "71173cba-4b0c-4268-9c17-ef4db3cf0c8b",
+      "type": "library",
+      "name": "shadow-utils",
+      "version": "2:4.15.0-5.el10",
+      "purl": "pkg:rpm/redhat/shadow-utils@2%3A4.15.0-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "bf5dd378-bd82-4747-9d44-793d1ba20e8b",
+      "type": "library",
+      "name": "dbus-libs",
+      "version": "1:1.14.10-5.el10",
+      "purl": "pkg:rpm/redhat/dbus-libs@1%3A1.14.10-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "0e18ee95-42e5-4cee-bdd6-4bf09e59fb4b",
+      "type": "library",
+      "name": "iproute",
+      "version": "6.11.0-1.el10",
+      "purl": "pkg:rpm/redhat/iproute@6.11.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e66a26bc-38a5-4c52-b91a-31de06eb1953",
+      "type": "library",
+      "name": "procps-ng",
+      "version": "4.0.4-7.el10",
+      "purl": "pkg:rpm/redhat/procps-ng@4.0.4-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6c645ea5-44de-4c71-9cd5-14fd307f93b5",
+      "type": "library",
+      "name": "libsmartcols",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/libsmartcols@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "657a1b02-f770-4c40-a54e-29d2296574c2",
+      "type": "library",
+      "name": "util-linux-core",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/util-linux-core@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7186eb53-ef66-4af8-8322-851a838644fe",
+      "type": "library",
+      "name": "lz4-libs",
+      "version": "1.9.4-8.el10",
+      "purl": "pkg:rpm/redhat/lz4-libs@1.9.4-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c3d5da77-d729-4569-a4eb-47ce51c28a45",
+      "type": "library",
+      "name": "libusb1",
+      "version": "1.0.27-4.el10",
+      "purl": "pkg:rpm/redhat/libusb1@1.0.27-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5c81e0d8-379b-4359-a15a-446cb4371e92",
+      "type": "library",
+      "name": "p11-kit-trust",
+      "version": "0.25.5-7.el10",
+      "purl": "pkg:rpm/redhat/p11-kit-trust@0.25.5-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6935ab0a-8d13-44be-9df1-cf0eba8c9d54",
+      "type": "library",
+      "name": "gnutls",
+      "version": "3.8.9-9.el10_0.14",
+      "purl": "pkg:rpm/redhat/gnutls@3.8.9-9.el10_0.14?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "68c35b53-53ee-4ea2-8e72-2dbde568e057",
+      "type": "library",
+      "name": "glib2",
+      "version": "2.80.4-4.el10_0.6",
+      "purl": "pkg:rpm/redhat/glib2@2.80.4-4.el10_0.6?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5a5972f9-360c-43d7-8359-cabe712f011c",
+      "type": "library",
+      "name": "json-glib",
+      "version": "1.8.0-5.el10",
+      "purl": "pkg:rpm/redhat/json-glib@1.8.0-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e5c2f99f-c887-4005-8e97-43ce446af351",
+      "type": "library",
+      "name": "polkit-libs",
+      "version": "125-3.el10",
+      "purl": "pkg:rpm/redhat/polkit-libs@125-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a0ea37f4-52af-4430-bca1-1cc572c48e2c",
+      "type": "library",
+      "name": "NetworkManager-libnm",
+      "version": "1:1.52.0-7.el10_0",
+      "purl": "pkg:rpm/redhat/NetworkManager-libnm@1%3A1.52.0-7.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "7e2615ee-ab47-485a-bdc4-aba9d841f0b0",
+      "type": "library",
+      "name": "tar",
+      "version": "2:1.35-7.el10",
+      "purl": "pkg:rpm/redhat/tar@2%3A1.35-7.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "d1ac3ad9-1bd3-4a32-89f5-39c2b380085a",
+      "type": "library",
+      "name": "libtevent",
+      "version": "0.16.1-106.el10",
+      "purl": "pkg:rpm/redhat/libtevent@0.16.1-106.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4b642229-7ce2-4683-b9c4-99de6741ba4c",
+      "type": "library",
+      "name": "e2fsprogs-libs",
+      "version": "1.47.1-3.el10",
+      "purl": "pkg:rpm/redhat/e2fsprogs-libs@1.47.1-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cd82244e-664a-42a4-bbd5-aa72c4e96205",
+      "type": "library",
+      "name": "hunspell-en-GB",
+      "version": "0.20201207-11.el10",
+      "purl": "pkg:rpm/redhat/hunspell-en-GB@0.20201207-11.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2d946abf-4933-4bc8-ae91-d658c1209296",
+      "type": "library",
+      "name": "hunspell-en-US",
+      "version": "0.20201207-11.el10",
+      "purl": "pkg:rpm/redhat/hunspell-en-US@0.20201207-11.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5c020d43-27fd-4f02-8497-595434302733",
+      "type": "library",
+      "name": "hunspell",
+      "version": "1.7.2-9.el10",
+      "purl": "pkg:rpm/redhat/hunspell@1.7.2-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "735f6673-fcfc-4a97-b383-d47ec0604e32",
+      "type": "library",
+      "name": "file-libs",
+      "version": "5.45-7.el10",
+      "purl": "pkg:rpm/redhat/file-libs@5.45-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dd31d06c-40f4-4658-84c3-116182d1a96a",
+      "type": "library",
+      "name": "hostname",
+      "version": "3.23-14.el10",
+      "purl": "pkg:rpm/redhat/hostname@3.23-14.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "12bf4ccd-db34-451e-a76b-9e2e366ae7ec",
+      "type": "library",
+      "name": "libref_array",
+      "version": "0.1.5-58.el10",
+      "purl": "pkg:rpm/redhat/libref_array@0.1.5-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1190dd62-bf9c-487a-b9ca-d05a6656173d",
+      "type": "library",
+      "name": "libverto",
+      "version": "0.3.2-10.el10",
+      "purl": "pkg:rpm/redhat/libverto@0.3.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fc86ae8a-d204-4ebd-8715-69cfe78df4f9",
+      "type": "library",
+      "name": "libyaml",
+      "version": "0.2.5-16.el10",
+      "purl": "pkg:rpm/redhat/libyaml@0.2.5-16.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3218fdd7-b697-4f4f-867d-d3ff84ec9447",
+      "type": "library",
+      "name": "pciutils-libs",
+      "version": "3.13.0-5.el10",
+      "purl": "pkg:rpm/redhat/pciutils-libs@3.13.0-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "484e2980-71d5-4e8f-b7c2-39299b472134",
+      "type": "library",
+      "name": "protobuf-c",
+      "version": "1.5.0-6.el10",
+      "purl": "pkg:rpm/redhat/protobuf-c@1.5.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "703ec74f-b9a6-48f8-a225-94c9dfe008df",
+      "type": "library",
+      "name": "userspace-rcu",
+      "version": "0.14.0-7.el10",
+      "purl": "pkg:rpm/redhat/userspace-rcu@0.14.0-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "74c9d87e-2842-49ae-9550-96d92c720cea",
+      "type": "library",
+      "name": "file",
+      "version": "5.45-7.el10",
+      "purl": "pkg:rpm/redhat/file@5.45-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "35d04101-751d-4003-8b49-e80db7772689",
+      "type": "library",
+      "name": "libgudev",
+      "version": "238-7.el10",
+      "purl": "pkg:rpm/redhat/libgudev@238-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c29a42e1-ab7f-4251-ad82-1ad6c4390738",
+      "type": "library",
+      "name": "shared-mime-info",
+      "version": "2.3-8.el10",
+      "purl": "pkg:rpm/redhat/shared-mime-info@2.3-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ef1ad2ad-129c-45ae-b1b7-9f10a1b6f046",
+      "type": "library",
+      "name": "libselinux-utils",
+      "version": "3.8-2.el10_0",
+      "purl": "pkg:rpm/redhat/libselinux-utils@3.8-2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b34bd8c0-885c-4753-94f9-ca6a78dd755d",
+      "type": "library",
+      "name": "ethtool",
+      "version": "2:6.11-5.el10_0",
+      "purl": "pkg:rpm/redhat/ethtool@2%3A6.11-5.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "1ac32743-6e5b-4630-80cb-10e287ec7112",
+      "type": "library",
+      "name": "cyrus-sasl-lib",
+      "version": "2.1.28-27.el10",
+      "purl": "pkg:rpm/redhat/cyrus-sasl-lib@2.1.28-27.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cc4edafc-e062-461b-9fb8-3bd61d22d645",
+      "type": "library",
+      "name": "groff-base",
+      "version": "1.23.0-10.el10",
+      "purl": "pkg:rpm/redhat/groff-base@1.23.0-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0ee2d521-4024-4c64-a63a-38ecd4749f89",
+      "type": "library",
+      "name": "mpfr",
+      "version": "4.2.1-5.el10",
+      "purl": "pkg:rpm/redhat/mpfr@4.2.1-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "75c009c5-f322-4fac-9941-49884a96db11",
+      "type": "library",
+      "name": "gawk",
+      "version": "5.3.0-6.el10",
+      "purl": "pkg:rpm/redhat/gawk@5.3.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e273d9f8-c27b-444e-b278-622ab5fcc104",
+      "type": "library",
+      "name": "libgcrypt",
+      "version": "1.11.0-5.el10",
+      "purl": "pkg:rpm/redhat/libgcrypt@1.11.0-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "41771423-5228-4e28-8171-41966b1b31ce",
+      "type": "library",
+      "name": "libksba",
+      "version": "1.6.7-2.el10",
+      "purl": "pkg:rpm/redhat/libksba@1.6.7-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6cfb0072-47a8-4861-9d60-16018712317a",
+      "type": "library",
+      "name": "keyutils",
+      "version": "1.6.3-5.el10",
+      "purl": "pkg:rpm/redhat/keyutils@1.6.3-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ebebf354-a5ae-4241-aab0-099474ff003f",
+      "type": "library",
+      "name": "diffutils",
+      "version": "3.10-8.el10",
+      "purl": "pkg:rpm/redhat/diffutils@3.10-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a5051a7c-7df7-437a-a065-0bdeb452182f",
+      "type": "library",
+      "name": "efivar-libs",
+      "version": "39-3.el10",
+      "purl": "pkg:rpm/redhat/efivar-libs@39-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c7a8a423-1164-4597-9532-46b8c78ee2a8",
+      "type": "library",
+      "name": "libbasicobjects",
+      "version": "0.1.1-58.el10",
+      "purl": "pkg:rpm/redhat/libbasicobjects@0.1.1-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dfd07534-b6fb-4069-8566-2059ba7c73be",
+      "type": "library",
+      "name": "libcollection",
+      "version": "0.7.0-58.el10",
+      "purl": "pkg:rpm/redhat/libcollection@0.7.0-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "647c6a00-353f-46fd-be52-e0d6c31a6eee",
+      "type": "library",
+      "name": "libdhash",
+      "version": "0.5.0-58.el10",
+      "purl": "pkg:rpm/redhat/libdhash@0.5.0-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "679b489b-b503-497c-80c7-561953d1d763",
+      "type": "library",
+      "name": "libnghttp2",
+      "version": "1.64.0-2.el10",
+      "purl": "pkg:rpm/redhat/libnghttp2@1.64.0-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5d0bfa84-d5bb-421d-8df2-a530416dafeb",
+      "type": "library",
+      "name": "libsss_idmap",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/libsss_idmap@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "03833327-f398-4f80-9ef3-875d6fb41ea5",
+      "type": "library",
+      "name": "libtdb",
+      "version": "1.4.12-102.el10",
+      "purl": "pkg:rpm/redhat/libtdb@1.4.12-102.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dd4219c7-8b7c-48e9-bae1-3a554003db3e",
+      "type": "library",
+      "name": "lua-libs",
+      "version": "5.4.6-7.el10",
+      "purl": "pkg:rpm/redhat/lua-libs@5.4.6-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dbc65ee5-b437-4ebd-9e19-e65c92269a15",
+      "type": "library",
+      "name": "lzo",
+      "version": "2.10-14.el10",
+      "purl": "pkg:rpm/redhat/lzo@2.10-14.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "43c63dd2-f9f0-4f4e-a12e-c1b630f583c9",
+      "type": "library",
+      "name": "npth",
+      "version": "1.6-21.el10",
+      "purl": "pkg:rpm/redhat/npth@1.6-21.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fdb9bd8c-fba0-495b-be9b-edbe3dd2917d",
+      "type": "library",
+      "name": "numactl-libs",
+      "version": "2.0.19-1.el10",
+      "purl": "pkg:rpm/redhat/numactl-libs@2.0.19-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "286c84fb-1b21-48f0-9375-7c964dcaa485",
+      "type": "library",
+      "name": "slang",
+      "version": "2.3.3-8.el10",
+      "purl": "pkg:rpm/redhat/slang@2.3.3-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ec8731b9-ffa0-409c-b6bb-80b072cfb4e2",
+      "type": "library",
+      "name": "newt",
+      "version": "0.52.24-5.el10",
+      "purl": "pkg:rpm/redhat/newt@0.52.24-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a2ec1e46-09dc-4087-b92f-c93543f5542d",
+      "type": "library",
+      "name": "libknet1-compress-lzo2-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-lzo2-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "095e703f-128b-461e-8475-a025b61e0492",
+      "type": "library",
+      "name": "libbytesize",
+      "version": "2.10-5.el10",
+      "purl": "pkg:rpm/redhat/libbytesize@2.10-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dbf8a5af-c30d-4b2c-bff2-757714b08fe5",
+      "type": "library",
+      "name": "libxmlb",
+      "version": "0.3.15-7.el10",
+      "purl": "pkg:rpm/redhat/libxmlb@0.3.15-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d7df5585-f169-4840-8cf6-e9d17e45cb60",
+      "type": "library",
+      "name": "hunspell-en",
+      "version": "0.20201207-11.el10",
+      "purl": "pkg:rpm/redhat/hunspell-en@0.20201207-11.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0a9898df-57c3-46e4-8280-aefd91ee4a0f",
+      "type": "library",
+      "name": "libgusb",
+      "version": "0.4.9-4.el10",
+      "purl": "pkg:rpm/redhat/libgusb@0.4.9-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b93b6e82-877a-4065-b8e4-2cd39fe52642",
+      "type": "library",
+      "name": "gobject-introspection",
+      "version": "1.79.1-6.el10",
+      "purl": "pkg:rpm/redhat/gobject-introspection@1.79.1-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e1e5f09a-c76f-4e88-aaef-4ab5f4cc4ecf",
+      "type": "library",
+      "name": "conmon",
+      "version": "3:2.1.12-4.el10",
+      "purl": "pkg:rpm/redhat/conmon@3%3A2.1.12-4.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=3"
+    },
+    {
+      "bom-ref": "db8303ef-c8fe-4ac9-8941-7e32bf0a53ad",
+      "type": "library",
+      "name": "libsecret",
+      "version": "0.21.2-7.el10",
+      "purl": "pkg:rpm/redhat/libsecret@0.21.2-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b758ebf7-8781-498f-ab44-391e5beabee8",
+      "type": "library",
+      "name": "pinentry",
+      "version": "1.3.1-1.el10",
+      "purl": "pkg:rpm/redhat/pinentry@1.3.1-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "af6b50e7-a11b-4643-a9fe-f43ebfeeedb9",
+      "type": "library",
+      "name": "libudisks2",
+      "version": "2.10.90-5.el10_0.1",
+      "purl": "pkg:rpm/redhat/libudisks2@2.10.90-5.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ddd4b926-e4f5-4fab-8b41-ba753a885e82",
+      "type": "library",
+      "name": "erofs-utils",
+      "version": "1.8.4-2.el10",
+      "purl": "pkg:rpm/redhat/erofs-utils@1.8.4-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cf90d9fe-fc3b-47e3-993a-fb33c3a9d970",
+      "type": "library",
+      "name": "libknet1-compress-lz4-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-lz4-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "59a4de7e-b6e7-4581-b8ed-1faf4e01d77f",
+      "type": "library",
+      "name": "libutempter",
+      "version": "1.2.1-15.el10",
+      "purl": "pkg:rpm/redhat/libutempter@1.2.1-15.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4beb0352-c326-452f-9087-fcd499dd6fc8",
+      "type": "library",
+      "name": "yggdrasil",
+      "version": "0.4.5-3.el10_0",
+      "purl": "pkg:rpm/redhat/yggdrasil@0.4.5-3.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6d51df37-1fbf-4ef0-8f9e-c3cef29445ee",
+      "type": "library",
+      "name": "device-mapper-persistent-data",
+      "version": "1.1.0-2.el10",
+      "purl": "pkg:rpm/redhat/device-mapper-persistent-data@1.1.0-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "52ca7c62-23e4-43e3-a8aa-5832985ee907",
+      "type": "library",
+      "name": "libatasmart",
+      "version": "0.19-30.el10",
+      "purl": "pkg:rpm/redhat/libatasmart@0.19-30.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d93e30b8-c3c9-4dc8-94cc-410a6772ebee",
+      "type": "library",
+      "name": "shadow-utils-subid",
+      "version": "2:4.15.0-5.el10",
+      "purl": "pkg:rpm/redhat/shadow-utils-subid@2%3A4.15.0-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "96890165-8653-44ac-aee8-87b6fda15406",
+      "type": "library",
+      "name": "libnozzle1",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libnozzle1@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "df441d1a-946e-4814-96c9-509493eb3f4b",
+      "type": "library",
+      "name": "libcomps",
+      "version": "0.1.21-3.el10",
+      "purl": "pkg:rpm/redhat/libcomps@0.1.21-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4fd1626b-fee4-4e9d-8c52-f5df804f4ff3",
+      "type": "library",
+      "name": "llvm-libs",
+      "version": "19.1.7-2.el10",
+      "purl": "pkg:rpm/redhat/llvm-libs@19.1.7-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "63e3ea33-0737-4e07-bdf2-62dbc0babaad",
+      "type": "library",
+      "name": "grub2-pc-modules",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-pc-modules@1%3A2.12-15.el10_0?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "55fda57f-d984-40a7-89ed-e608df487e0d",
+      "type": "library",
+      "name": "libpsl",
+      "version": "0.21.5-6.el10",
+      "purl": "pkg:rpm/redhat/libpsl@0.21.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0a22629d-5a7e-4927-8f32-7dc35d4f44de",
+      "type": "library",
+      "name": "gettext-libs",
+      "version": "0.22.5-6.el10",
+      "purl": "pkg:rpm/redhat/gettext-libs@0.22.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c8fcfedb-07b3-4093-95d2-b1ec0c1125d2",
+      "type": "library",
+      "name": "libnftnl",
+      "version": "1.2.8-2.el10",
+      "purl": "pkg:rpm/redhat/libnftnl@1.2.8-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "20230735-6b04-40fd-bef7-4d019a01a1cc",
+      "type": "library",
+      "name": "attr",
+      "version": "2.5.2-5.el10",
+      "purl": "pkg:rpm/redhat/attr@2.5.2-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8448f39a-1d51-4150-b01a-c7203494b257",
+      "type": "library",
+      "name": "gdbm",
+      "version": "1:1.23-12.el10_0",
+      "purl": "pkg:rpm/redhat/gdbm@1%3A1.23-12.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "0bcbd525-b8b4-4f35-8961-29ac0c537139",
+      "type": "library",
+      "name": "xz",
+      "version": "1:5.6.2-4.el10_0",
+      "purl": "pkg:rpm/redhat/xz@1%3A5.6.2-4.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "a2c964f1-7536-4718-ba94-f344a77a1d12",
+      "type": "library",
+      "name": "nss-softokn-freebl",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss-softokn-freebl@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d94ff5b2-06b2-458f-8c16-a8720accc276",
+      "type": "library",
+      "name": "nss-softokn",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss-softokn@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2dc30b08-d67d-4024-bf94-093bc788fa64",
+      "type": "library",
+      "name": "libknet1-compress-bzip2-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-bzip2-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "faee1cab-dd9e-4b4f-b9cb-e0a7b0bacb4a",
+      "type": "library",
+      "name": "libknet1-compress-lzma-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-lzma-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ea657694-20b9-4bae-9cac-124b8a4c08bd",
+      "type": "library",
+      "name": "libknet1-compress-zlib-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-zlib-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0ce1a63c-d53d-4110-88ef-367760bb4afb",
+      "type": "library",
+      "name": "libknet1-compress-zstd-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-zstd-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "bcbf24ff-54e6-4bf5-8830-6b2eb0609fb2",
+      "type": "library",
+      "name": "libknet1-compress-plugins-all",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-compress-plugins-all@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "95d7e22e-aca1-4c83-ba09-84b57352007a",
+      "type": "library",
+      "name": "libss",
+      "version": "1.47.1-3.el10",
+      "purl": "pkg:rpm/redhat/libss@1.47.1-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7c00db7d-5a00-4a23-a9a0-da0456bb51f5",
+      "type": "library",
+      "name": "bzip2",
+      "version": "1.0.8-25.el10",
+      "purl": "pkg:rpm/redhat/bzip2@1.0.8-25.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "88a5e64e-003d-4713-8d28-266f4abf0ab9",
+      "type": "library",
+      "name": "snappy",
+      "version": "1.1.10-7.el10",
+      "purl": "pkg:rpm/redhat/snappy@1.1.10-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9ebb7e08-e8b4-4e32-a238-7c0ff6dbb850",
+      "type": "library",
+      "name": "bc",
+      "version": "1.07.1-23.el10",
+      "purl": "pkg:rpm/redhat/bc@1.07.1-23.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e9b6aa61-8c36-47b7-9c57-dc9ad6e706d7",
+      "type": "library",
+      "name": "libxkbcommon",
+      "version": "1.7.0-4.el10",
+      "purl": "pkg:rpm/redhat/libxkbcommon@1.7.0-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "134a8a48-ac43-4745-aa5e-7516ba4600cf",
+      "type": "library",
+      "name": "pigz",
+      "version": "2.8-7.el10",
+      "purl": "pkg:rpm/redhat/pigz@2.8-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dc2116ca-79c6-47e3-922e-00543c6f6614",
+      "type": "library",
+      "name": "dbus-common",
+      "version": "1:1.14.10-5.el10",
+      "purl": "pkg:rpm/redhat/dbus-common@1%3A1.14.10-5.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "33d58095-b8f9-4ae7-92b8-69ce298505bb",
+      "type": "library",
+      "name": "dbus-broker",
+      "version": "36-1.el10",
+      "purl": "pkg:rpm/redhat/dbus-broker@36-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "00c949ae-8422-45e4-aae3-92b71fbea145",
+      "type": "library",
+      "name": "dbus",
+      "version": "1:1.14.10-5.el10",
+      "purl": "pkg:rpm/redhat/dbus@1%3A1.14.10-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "0bce46bd-3d4f-4830-bce5-3995efe0f390",
+      "type": "library",
+      "name": "kernel-tools-libs",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel-tools-libs@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7d42a69c-fb3f-4f1d-8196-1364d64b39e9",
+      "type": "library",
+      "name": "less",
+      "version": "661-3.el10",
+      "purl": "pkg:rpm/redhat/less@661-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1945e1ee-ec27-4def-9a2a-ed82e4d1bcd1",
+      "type": "library",
+      "name": "yggdrasil-worker-package-manager",
+      "version": "0.2.3-3.el10",
+      "purl": "pkg:rpm/redhat/yggdrasil-worker-package-manager@0.2.3-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "eb50a4ec-653e-4a15-9f64-080d2607c1da",
+      "type": "library",
+      "name": "ncurses",
+      "version": "6.4-14.20240127.el10",
+      "purl": "pkg:rpm/redhat/ncurses@6.4-14.20240127.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6880a998-cbd9-4892-abd3-143af1cd9110",
+      "type": "library",
+      "name": "memstrack",
+      "version": "0.2.5-6.el10",
+      "purl": "pkg:rpm/redhat/memstrack@0.2.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "024699d0-a4fb-4269-9816-077b111af1d0",
+      "type": "library",
+      "name": "c-ares",
+      "version": "1.25.0-6.el10",
+      "purl": "pkg:rpm/redhat/c-ares@1.25.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c9ef2d14-2bc4-4ab8-a774-6d9ce21264cf",
+      "type": "library",
+      "name": "cpio",
+      "version": "2.15-3.el10",
+      "purl": "pkg:rpm/redhat/cpio@2.15-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e4675b5c-a880-48d7-9638-32534463c405",
+      "type": "library",
+      "name": "dosfstools",
+      "version": "4.2-12.el10",
+      "purl": "pkg:rpm/redhat/dosfstools@4.2-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "acab5f1a-965e-41c6-9bc7-c9b3a5cab68e",
+      "type": "library",
+      "name": "duktape",
+      "version": "2.7.0-10.el10",
+      "purl": "pkg:rpm/redhat/duktape@2.7.0-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f2ef382d-1e06-4650-a3e7-8330a05dee7d",
+      "type": "library",
+      "name": "exfatprogs",
+      "version": "1.2.2-6.el10",
+      "purl": "pkg:rpm/redhat/exfatprogs@1.2.2-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4c0de456-b736-4822-aa0c-fc4115a7adde",
+      "type": "library",
+      "name": "fuse-libs",
+      "version": "2.9.9-25.el10",
+      "purl": "pkg:rpm/redhat/fuse-libs@2.9.9-25.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e85aa57b-5da7-4768-ba98-12f58e4bf1ac",
+      "type": "library",
+      "name": "fuse3-libs",
+      "version": "3.16.2-5.el10",
+      "purl": "pkg:rpm/redhat/fuse3-libs@3.16.2-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1075b6e4-da10-4ab8-adcc-17cfba2c5afb",
+      "type": "library",
+      "name": "e2fsprogs",
+      "version": "1.47.1-3.el10",
+      "purl": "pkg:rpm/redhat/e2fsprogs@1.47.1-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "803a77dc-8577-4137-9c13-23cfb28f8685",
+      "type": "library",
+      "name": "gettext-envsubst",
+      "version": "0.22.5-6.el10",
+      "purl": "pkg:rpm/redhat/gettext-envsubst@0.22.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1a96827d-fe22-4b65-a014-10534d79810f",
+      "type": "library",
+      "name": "gettext-runtime",
+      "version": "0.22.5-6.el10",
+      "purl": "pkg:rpm/redhat/gettext-runtime@0.22.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cfd462c8-712b-4d29-a229-81d6cf3bea85",
+      "type": "library",
+      "name": "hdparm",
+      "version": "9.65-6.el10",
+      "purl": "pkg:rpm/redhat/hdparm@9.65-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2be45636-e729-4696-8417-74084e710a77",
+      "type": "library",
+      "name": "inih",
+      "version": "58-3.el10",
+      "purl": "pkg:rpm/redhat/inih@58-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "55c3d244-eb4a-478a-afb2-053163a402ab",
+      "type": "library",
+      "name": "xfsprogs",
+      "version": "6.11.0-1.el10",
+      "purl": "pkg:rpm/redhat/xfsprogs@6.11.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fa007f1e-3fd2-4534-bce9-efb974b3f683",
+      "type": "library",
+      "name": "libbrotli",
+      "version": "1.1.0-6.el10",
+      "purl": "pkg:rpm/redhat/libbrotli@1.1.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6106358f-a20d-4f75-abcb-def325718188",
+      "type": "library",
+      "name": "libcbor",
+      "version": "0.11.0-3.el10",
+      "purl": "pkg:rpm/redhat/libcbor@0.11.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3e9efc45-b17e-45bb-82e7-88d2400f6833",
+      "type": "library",
+      "name": "libev",
+      "version": "4.33-14.el10",
+      "purl": "pkg:rpm/redhat/libev@4.33-14.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "63d8c7cd-71f4-4c4c-8522-e83ef8a63f93",
+      "type": "library",
+      "name": "libverto-libev",
+      "version": "0.3.2-10.el10",
+      "purl": "pkg:rpm/redhat/libverto-libev@0.3.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "80eb0f18-3ee5-4422-a8fa-52402b7de95c",
+      "type": "library",
+      "name": "libgomp",
+      "version": "14.2.1-7.el10",
+      "purl": "pkg:rpm/redhat/libgomp@14.2.1-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fccdb203-fb0e-4166-9791-6c13d026a998",
+      "type": "library",
+      "name": "libndp",
+      "version": "1.9-2.el10",
+      "purl": "pkg:rpm/redhat/libndp@1.9-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ee44183d-ae58-4c55-b0a5-442862f821ba",
+      "type": "library",
+      "name": "libnfnetlink",
+      "version": "1.0.2-3.el10",
+      "purl": "pkg:rpm/redhat/libnfnetlink@1.0.2-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2eefcb29-3de6-44b3-a327-3c78c086d78c",
+      "type": "library",
+      "name": "libnetfilter_conntrack",
+      "version": "1.0.9-12.el10",
+      "purl": "pkg:rpm/redhat/libnetfilter_conntrack@1.0.9-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "060d419e-e80d-422a-afd2-300a510051f3",
+      "type": "library",
+      "name": "iptables-libs",
+      "version": "1.8.11-9.el10_0",
+      "purl": "pkg:rpm/redhat/iptables-libs@1.8.11-9.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "27126f45-9903-4af4-bc38-cea92c415765",
+      "type": "library",
+      "name": "nftables",
+      "version": "1:1.1.1-4.el10_0",
+      "purl": "pkg:rpm/redhat/nftables@1%3A1.1.1-4.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "0cbb45e7-d6c8-40da-8f0f-339c19f774c7",
+      "type": "library",
+      "name": "libpath_utils",
+      "version": "0.2.1-58.el10",
+      "purl": "pkg:rpm/redhat/libpath_utils@0.2.1-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1e333e31-1b4e-47ed-b109-bed6a43b1a35",
+      "type": "library",
+      "name": "libini_config",
+      "version": "1.3.1-58.el10",
+      "purl": "pkg:rpm/redhat/libini_config@1.3.1-58.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "39cea087-0703-44a7-a6a4-38e30656f1e1",
+      "type": "library",
+      "name": "libpipeline",
+      "version": "1.5.7-7.el10",
+      "purl": "pkg:rpm/redhat/libpipeline@1.5.7-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1eb26f07-6b4d-49f4-befd-dde1cd8f39fb",
+      "type": "library",
+      "name": "libpkgconf",
+      "version": "2.1.0-3.el10",
+      "purl": "pkg:rpm/redhat/libpkgconf@2.1.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "26f56d65-f345-4c5c-9d89-aac61e2140a9",
+      "type": "library",
+      "name": "pkgconf",
+      "version": "2.1.0-3.el10",
+      "purl": "pkg:rpm/redhat/pkgconf@2.1.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4bb172bc-8301-49a7-a88e-6f1d389f437b",
+      "type": "library",
+      "name": "pkgconf-pkg-config",
+      "version": "2.1.0-3.el10",
+      "purl": "pkg:rpm/redhat/pkgconf-pkg-config@2.1.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "70337a97-0ad9-407a-9e20-2fc2099c0f01",
+      "type": "library",
+      "name": "fwupd-efi",
+      "version": "1.6-3.el10",
+      "purl": "pkg:rpm/redhat/fwupd-efi@1.6-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f20c0aba-fdaf-4819-8de1-f8c2e89321e9",
+      "type": "library",
+      "name": "pacemaker-schemas",
+      "version": "3.0.0-5.1.el10_0",
+      "purl": "pkg:rpm/redhat/pacemaker-schemas@3.0.0-5.1.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0c4f7923-ab7f-4b64-8132-b9177cd9821a",
+      "type": "library",
+      "name": "pacemaker-libs",
+      "version": "3.0.0-5.1.el10_0",
+      "purl": "pkg:rpm/redhat/pacemaker-libs@3.0.0-5.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "04903a98-bc0f-4c9c-afb7-f12895086f53",
+      "type": "library",
+      "name": "pacemaker-cluster-libs",
+      "version": "3.0.0-5.1.el10_0",
+      "purl": "pkg:rpm/redhat/pacemaker-cluster-libs@3.0.0-5.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5f9e030a-2330-4800-9575-858a876c9433",
+      "type": "library",
+      "name": "libsss_nss_idmap",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/libsss_nss_idmap@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8103b190-7a0e-4783-b617-f5a7fdfae46d",
+      "type": "library",
+      "name": "libsss_sudo",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/libsss_sudo@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4eb9ad37-3a28-44d3-9b2f-d3bd0d1310e6",
+      "type": "library",
+      "name": "libtraceevent",
+      "version": "1.8.4-3.el10",
+      "purl": "pkg:rpm/redhat/libtraceevent@1.8.4-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a27ed47c-11d3-4083-acbb-bf7a238db371",
+      "type": "library",
+      "name": "lmdb-libs",
+      "version": "0.9.32-4.el10",
+      "purl": "pkg:rpm/redhat/lmdb-libs@0.9.32-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "197c3a4e-3d56-46e1-97f4-0eaa28ec5206",
+      "type": "library",
+      "name": "libldb",
+      "version": "4.21.3-113.el10_0",
+      "purl": "pkg:rpm/redhat/libldb@4.21.3-113.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4db3b2ec-446c-40fc-b791-d713e3c44efd",
+      "type": "library",
+      "name": "mpdecimal",
+      "version": "2.5.1-12.el10",
+      "purl": "pkg:rpm/redhat/mpdecimal@2.5.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cc69c546-a632-4a6c-ba5c-0b9cfc483c03",
+      "type": "library",
+      "name": "oniguruma",
+      "version": "6.9.9-7.el10",
+      "purl": "pkg:rpm/redhat/oniguruma@6.9.9-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "648d3c3f-884e-4fd8-bf1a-f316eb803c81",
+      "type": "library",
+      "name": "jq",
+      "version": "1.7.1-8.el10_0.1",
+      "purl": "pkg:rpm/redhat/jq@1.7.1-8.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fe926f23-e13d-45ba-9ddf-6c93380b4acb",
+      "type": "library",
+      "name": "pcsc-lite-libs",
+      "version": "2.2.3-2.el10",
+      "purl": "pkg:rpm/redhat/pcsc-lite-libs@2.2.3-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b0fab89d-ffcc-4cee-b6a4-920012e6faaf",
+      "type": "library",
+      "name": "sg3_utils-libs",
+      "version": "1.48-7.el10",
+      "purl": "pkg:rpm/redhat/sg3_utils-libs@1.48-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a72aa87b-daca-42a7-b34f-48cde93f73c7",
+      "type": "library",
+      "name": "sg3_utils",
+      "version": "1.48-7.el10",
+      "purl": "pkg:rpm/redhat/sg3_utils@1.48-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1c1beb82-f1cd-49f2-b1a3-8f2998a803ae",
+      "type": "library",
+      "name": "aardvark-dns",
+      "version": "2:1.14.0-1.el10",
+      "purl": "pkg:rpm/redhat/aardvark-dns@2%3A1.14.0-1.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "6536c54f-9227-4bf0-9378-c6ebbd09b995",
+      "type": "library",
+      "name": "netavark",
+      "version": "2:1.14.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/netavark@2%3A1.14.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "e9229a18-5752-4313-8c1d-97c469b4d483",
+      "type": "library",
+      "name": "checkpolicy",
+      "version": "3.8-1.el10",
+      "purl": "pkg:rpm/redhat/checkpolicy@3.8-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c57433db-3e30-4859-9515-97208ed58bc9",
+      "type": "library",
+      "name": "libestr",
+      "version": "0.1.11-11.el10",
+      "purl": "pkg:rpm/redhat/libestr@0.1.11-11.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0ad8a69d-4b53-437a-aaab-8ae15289bb85",
+      "type": "library",
+      "name": "libfastjson",
+      "version": "1.2304.0-6.el10",
+      "purl": "pkg:rpm/redhat/libfastjson@1.2304.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "53faf59a-5d65-4b8e-a696-19cb41b1e565",
+      "type": "library",
+      "name": "libnet",
+      "version": "1.3-7.el10",
+      "purl": "pkg:rpm/redhat/libnet@1.3-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "858f4d81-b80e-4bd5-90a2-a8299af9ea66",
+      "type": "library",
+      "name": "criu",
+      "version": "3.19-9.el10",
+      "purl": "pkg:rpm/redhat/criu@3.19-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2928e11e-6a59-4608-b760-29c16143651d",
+      "type": "library",
+      "name": "criu-libs",
+      "version": "3.19-9.el10",
+      "purl": "pkg:rpm/redhat/criu-libs@3.19-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c445731c-1072-4df2-9442-18a5ee0bc2f7",
+      "type": "library",
+      "name": "crun",
+      "version": "1.23.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/crun@1.23.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7f290d5c-1925-41b8-a4a6-70fb8afd71f4",
+      "type": "library",
+      "name": "langpacks-core-en",
+      "version": "4.1-3.el10",
+      "purl": "pkg:rpm/redhat/langpacks-core-en@4.1-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3d6e7d13-fbb0-4b22-8ddc-89f78eb51429",
+      "type": "library",
+      "name": "libssh-config",
+      "version": "0.11.1-1.el10",
+      "purl": "pkg:rpm/redhat/libssh-config@0.11.1-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0de974ad-ebaf-45ba-8ef7-996de1c73e60",
+      "type": "library",
+      "name": "kbd-misc",
+      "version": "2.6.4-7.el10",
+      "purl": "pkg:rpm/redhat/kbd-misc@2.6.4-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "05727b76-2971-45fb-b58a-796769e996ff",
+      "type": "library",
+      "name": "kbd-legacy",
+      "version": "2.6.4-7.el10",
+      "purl": "pkg:rpm/redhat/kbd-legacy@2.6.4-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "02d279b8-b59b-4a4f-a4d6-aaf78df0f3ed",
+      "type": "library",
+      "name": "kbd",
+      "version": "2.6.4-7.el10",
+      "purl": "pkg:rpm/redhat/kbd@2.6.4-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a7c3f85f-5d02-4c2d-87ad-7bbbd8832cda",
+      "type": "library",
+      "name": "dnf-data",
+      "version": "4.20.0-14.el10_0",
+      "purl": "pkg:rpm/redhat/dnf-data@4.20.0-14.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "16a0eaf5-59ba-4e91-be16-b1b76b92ca9f",
+      "type": "library",
+      "name": "coreutils-common",
+      "version": "9.5-6.el10",
+      "purl": "pkg:rpm/redhat/coreutils-common@9.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3fb6f80a-c1e9-4a65-ab67-3a69b1f98d57",
+      "type": "library",
+      "name": "openssl-fips-provider-so",
+      "version": "3.0.7-6.el10",
+      "purl": "pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "31e751c7-dcc3-4b4a-92b0-23f0e8863551",
+      "type": "library",
+      "name": "openssl-fips-provider",
+      "version": "3.0.7-6.el10",
+      "purl": "pkg:rpm/redhat/openssl-fips-provider@3.0.7-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3da4bb59-830d-46fe-bee4-b3340b528635",
+      "type": "library",
+      "name": "openssl-libs",
+      "version": "1:3.2.2-16.el10_0.4",
+      "purl": "pkg:rpm/redhat/openssl-libs@1%3A3.2.2-16.el10_0.4?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "15ad3b9f-2722-4062-bee8-9d6b4d583d77",
+      "type": "library",
+      "name": "coreutils",
+      "version": "9.5-6.el10",
+      "purl": "pkg:rpm/redhat/coreutils@9.5-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5a5eb425-b15e-494f-b6a0-7427b3d04017",
+      "type": "library",
+      "name": "ca-certificates",
+      "version": "2024.2.69_v8.0.303-102.3.el10",
+      "purl": "pkg:rpm/redhat/ca-certificates@2024.2.69_v8.0.303-102.3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "09808225-a19b-468c-85f6-802a3d9d62f5",
+      "type": "library",
+      "name": "krb5-libs",
+      "version": "1.21.3-8.el10_0",
+      "purl": "pkg:rpm/redhat/krb5-libs@1.21.3-8.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c0dcaae4-acec-48ba-a6cf-c6acf495b24f",
+      "type": "library",
+      "name": "kmod-libs",
+      "version": "31-11.el10",
+      "purl": "pkg:rpm/redhat/kmod-libs@31-11.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "72e9cac5-fbd3-4f71-ada0-1f09386c63a6",
+      "type": "library",
+      "name": "libblockdev-utils",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-utils@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3d8456ee-9a6f-40ca-8c56-de19537b863a",
+      "type": "library",
+      "name": "ruby-libs",
+      "version": "3.3.8-10.el10_0",
+      "purl": "pkg:rpm/redhat/ruby-libs@3.3.8-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "24b2efec-b1af-46b9-908c-266be93fa895",
+      "type": "library",
+      "name": "kmod",
+      "version": "31-11.el10",
+      "purl": "pkg:rpm/redhat/kmod@31-11.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c8741cc7-7573-413f-9415-1a7198b7e9a1",
+      "type": "library",
+      "name": "tpm2-tss",
+      "version": "4.1.3-5.el10",
+      "purl": "pkg:rpm/redhat/tpm2-tss@4.1.3-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cc342aa7-8dfd-4d62-8f14-c233beac36b4",
+      "type": "library",
+      "name": "ruby",
+      "version": "3.3.8-10.el10_0",
+      "purl": "pkg:rpm/redhat/ruby@3.3.8-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "359a6f9e-eef7-44b2-ad79-596d79b36b5c",
+      "type": "library",
+      "name": "rubygem-bigdecimal",
+      "version": "3.1.5-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-bigdecimal@3.1.5-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ba40c87d-93b8-455b-af57-90c7b1c4d28e",
+      "type": "library",
+      "name": "ruby-default-gems",
+      "version": "3.3.8-10.el10_0",
+      "purl": "pkg:rpm/redhat/ruby-default-gems@3.3.8-10.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "23f08706-ea98-44cb-976a-1c95f51db590",
+      "type": "library",
+      "name": "rubygem-bundler",
+      "version": "2.5.22-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-bundler@2.5.22-10.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c65258f1-5682-482f-9ccb-6f65fd935d8c",
+      "type": "library",
+      "name": "rubygem-io-console",
+      "version": "0.7.1-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-io-console@0.7.1-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "20bc41d5-04ca-4aa8-8aee-e566e2f8ca20",
+      "type": "library",
+      "name": "rubygem-json",
+      "version": "2.7.2-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-json@2.7.2-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0ac83e0f-6d5e-4c71-a2e0-de0a208fe0d0",
+      "type": "library",
+      "name": "rubygem-psych",
+      "version": "5.1.2-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-psych@5.1.2-10.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dfc1c168-73dd-41ce-bd7b-b82a8c955b02",
+      "type": "library",
+      "name": "rubygem-rdoc",
+      "version": "6.6.3.1-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-rdoc@6.6.3.1-10.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e85c96af-734e-4c97-818a-be86a26eb718",
+      "type": "library",
+      "name": "rubygems",
+      "version": "3.5.22-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygems@3.5.22-10.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "51cc3530-1cfa-4801-865b-71be9a96895d",
+      "type": "library",
+      "name": "libtirpc",
+      "version": "1.3.5-1.el10",
+      "purl": "pkg:rpm/redhat/libtirpc@1.3.5-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "848b456b-9924-471d-b228-7518b7917f22",
+      "type": "library",
+      "name": "gzip",
+      "version": "1.13-3.el10",
+      "purl": "pkg:rpm/redhat/gzip@1.13-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9cb6dff2-32a4-47cc-b0c5-6ea6026d2d4e",
+      "type": "library",
+      "name": "libarchive",
+      "version": "3.7.7-4.el10_0",
+      "purl": "pkg:rpm/redhat/libarchive@3.7.7-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f9c76f4a-e9dc-4b34-884b-3658ed1fadd8",
+      "type": "library",
+      "name": "libevent",
+      "version": "2.1.12-16.el10",
+      "purl": "pkg:rpm/redhat/libevent@2.1.12-16.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5cea5849-aaaa-4379-921c-fb41e91c948a",
+      "type": "library",
+      "name": "openldap",
+      "version": "2.6.8-3.el10",
+      "purl": "pkg:rpm/redhat/openldap@2.6.8-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f8f47b8b-aa6d-42d6-8d0e-b5fc7bc7298b",
+      "type": "library",
+      "name": "libnvme",
+      "version": "1.11.1-1.el10",
+      "purl": "pkg:rpm/redhat/libnvme@1.11.1-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c3f6e96a-7d81-4720-af35-809b5427b5f7",
+      "type": "library",
+      "name": "libnfsidmap",
+      "version": "1:2.8.2-3.el10",
+      "purl": "pkg:rpm/redhat/libnfsidmap@1%3A2.8.2-3.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "50fc347c-eb5a-4c99-a7f0-fb6cab94dc01",
+      "type": "library",
+      "name": "cracklib",
+      "version": "2.9.11-8.el10",
+      "purl": "pkg:rpm/redhat/cracklib@2.9.11-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a6e98b8f-85bb-4edb-9c0e-d5209acd4112",
+      "type": "library",
+      "name": "which",
+      "version": "2.21-44.el10_0",
+      "purl": "pkg:rpm/redhat/which@2.21-44.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f9a50fb5-4a5b-48b8-84ca-edf199269d78",
+      "type": "library",
+      "name": "libfido2",
+      "version": "1.14.0-7.el10",
+      "purl": "pkg:rpm/redhat/libfido2@1.14.0-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9c36f426-76ef-4d26-b31e-77f2d07b1468",
+      "type": "library",
+      "name": "net-snmp-libs",
+      "version": "1:5.9.4-15.el10_0",
+      "purl": "pkg:rpm/redhat/net-snmp-libs@1%3A5.9.4-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "5b40bfcf-98bb-453b-b066-bef04cb8c7f7",
+      "type": "library",
+      "name": "net-snmp-utils",
+      "version": "1:5.9.4-15.el10_0",
+      "purl": "pkg:rpm/redhat/net-snmp-utils@1%3A5.9.4-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "1c0562ea-6678-4a25-9a55-bfc0cb5331ff",
+      "type": "library",
+      "name": "cracklib-dicts",
+      "version": "2.9.11-8.el10",
+      "purl": "pkg:rpm/redhat/cracklib-dicts@2.9.11-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "112a001b-c630-46b0-b415-a0d084d48a78",
+      "type": "library",
+      "name": "libpwquality",
+      "version": "1.4.5-12.el10",
+      "purl": "pkg:rpm/redhat/libpwquality@1.4.5-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fe5d6716-8839-499e-973e-c0bbbcb094e1",
+      "type": "library",
+      "name": "pam",
+      "version": "1.6.1-7.el10",
+      "purl": "pkg:rpm/redhat/pam@1.6.1-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4e76d47f-ae47-4848-b11f-6b7fe39bf8a7",
+      "type": "library",
+      "name": "sssd-nfs-idmap",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/sssd-nfs-idmap@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8f52420c-c216-4d12-a69a-b3f596f25bfa",
+      "type": "library",
+      "name": "libblockdev-nvme",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-nvme@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "67cb9c51-678b-45d3-883c-f44c36776817",
+      "type": "library",
+      "name": "quota",
+      "version": "1:4.09-9.el10",
+      "purl": "pkg:rpm/redhat/quota@1%3A4.09-9.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "2caae3d4-aca3-48be-8269-5fc49f81a8b7",
+      "type": "library",
+      "name": "rubygem-rexml",
+      "version": "3.3.9-10.el10_0",
+      "purl": "pkg:rpm/redhat/rubygem-rexml@3.3.9-10.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "28b4568b-3da8-40a7-a5c6-40d40ed2618f",
+      "type": "library",
+      "name": "ima-evm-utils",
+      "version": "1.6.2-1.el10",
+      "purl": "pkg:rpm/redhat/ima-evm-utils@1.6.2-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "56cbe779-2472-4fd2-8b43-9a2aa903a0b3",
+      "type": "library",
+      "name": "libblockdev",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e295d185-86f3-455b-ba09-7fa208a675a4",
+      "type": "library",
+      "name": "libblockdev-fs",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-fs@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "45fb0e83-fa66-4939-a7e8-6f2804a6e0d6",
+      "type": "library",
+      "name": "libblockdev-loop",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-loop@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9f50aa26-2e4e-4d1c-bc26-a5f0d4778f52",
+      "type": "library",
+      "name": "libblockdev-smart",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-smart@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7c26e923-7c68-408d-bc84-2c2b2a1d0179",
+      "type": "library",
+      "name": "pciutils",
+      "version": "3.13.0-5.el10",
+      "purl": "pkg:rpm/redhat/pciutils@3.13.0-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e80af0b6-d9a5-4d03-84af-3ac904e5b5dc",
+      "type": "library",
+      "name": "cyrus-sasl-gssapi",
+      "version": "2.1.28-27.el10",
+      "purl": "pkg:rpm/redhat/cyrus-sasl-gssapi@2.1.28-27.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "46b58d83-85ee-4eda-b7e8-ba5ec37a1e59",
+      "type": "library",
+      "name": "libssh",
+      "version": "0.11.1-1.el10",
+      "purl": "pkg:rpm/redhat/libssh@0.11.1-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "500dd6c7-6cfe-4652-9823-4bc5c71e0bc2",
+      "type": "library",
+      "name": "libcurl",
+      "version": "8.9.1-5.el10",
+      "purl": "pkg:rpm/redhat/libcurl@8.9.1-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c46acc21-7934-438d-8b46-366e8148a131",
+      "type": "library",
+      "name": "util-linux",
+      "version": "2.40.2-10.el10",
+      "purl": "pkg:rpm/redhat/util-linux@2.40.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b8e695d8-3419-4ea6-af49-904c98f5f11e",
+      "type": "library",
+      "name": "authselect-libs",
+      "version": "1.5.0-8.el10",
+      "purl": "pkg:rpm/redhat/authselect-libs@1.5.0-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ddf6d544-73e1-4c2b-9c6c-f6140ff5c4a1",
+      "type": "library",
+      "name": "cryptsetup-libs",
+      "version": "2.7.5-2.el10",
+      "purl": "pkg:rpm/redhat/cryptsetup-libs@2.7.5-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ed238bd9-132d-4d22-886c-3e0f946269c4",
+      "type": "library",
+      "name": "device-mapper-libs",
+      "version": "10:1.02.202-6.el10",
+      "purl": "pkg:rpm/redhat/device-mapper-libs@10%3A1.02.202-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "44a7cf6e-5d10-445e-8013-7f24033e66e6",
+      "type": "library",
+      "name": "device-mapper",
+      "version": "10:1.02.202-6.el10",
+      "purl": "pkg:rpm/redhat/device-mapper@10%3A1.02.202-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "96ff70dd-b500-4be9-b02a-d19375541e38",
+      "type": "library",
+      "name": "elfutils-debuginfod-client",
+      "version": "0.192-6.el10_0",
+      "purl": "pkg:rpm/redhat/elfutils-debuginfod-client@0.192-6.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c57abe48-520c-4a22-99eb-6c923ebdd15c",
+      "type": "library",
+      "name": "elfutils-libs",
+      "version": "0.192-6.el10_0",
+      "purl": "pkg:rpm/redhat/elfutils-libs@0.192-6.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2af38d0c-5e11-47c9-9b6f-88cbbf57519a",
+      "type": "library",
+      "name": "elfutils-default-yama-scope",
+      "version": "0.192-6.el10_0",
+      "purl": "pkg:rpm/redhat/elfutils-default-yama-scope@0.192-6.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a884bb65-38d4-4b88-b426-7e71efb59370",
+      "type": "library",
+      "name": "systemd-pam",
+      "version": "257-9.el10_0.1",
+      "purl": "pkg:rpm/redhat/systemd-pam@257-9.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "970471f7-6a68-44fb-a6fb-f67f666ff4af",
+      "type": "library",
+      "name": "systemd",
+      "version": "257-9.el10_0.1",
+      "purl": "pkg:rpm/redhat/systemd@257-9.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e1e862e3-3dfe-4c5b-b9ba-05da780ec817",
+      "type": "library",
+      "name": "polkit",
+      "version": "125-3.el10",
+      "purl": "pkg:rpm/redhat/polkit@125-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "50c57c8f-4ae9-4357-9c0d-c04fd65bc5c0",
+      "type": "library",
+      "name": "polkit-pkla-compat",
+      "version": "0.1-30.el10",
+      "purl": "pkg:rpm/redhat/polkit-pkla-compat@0.1-30.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7ee73a1b-1694-4a3f-acf2-48af2432c1d3",
+      "type": "library",
+      "name": "grub2-tools-minimal",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-tools-minimal@1%3A2.12-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "96686a0d-3164-4988-b18d-6be2f4657068",
+      "type": "library",
+      "name": "device-mapper-event-libs",
+      "version": "10:1.02.202-6.el10",
+      "purl": "pkg:rpm/redhat/device-mapper-event-libs@10%3A1.02.202-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "8ae8a3e2-c6e1-4591-9053-adf10639dac4",
+      "type": "library",
+      "name": "cronie-anacron",
+      "version": "1.7.0-9.el10",
+      "purl": "pkg:rpm/redhat/cronie-anacron@1.7.0-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7f9bd420-0e7a-480d-929b-db97cd4397d0",
+      "type": "library",
+      "name": "cronie",
+      "version": "1.7.0-9.el10",
+      "purl": "pkg:rpm/redhat/cronie@1.7.0-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6dd72229-1420-4af2-87fe-b135f3c780f6",
+      "type": "library",
+      "name": "iputils",
+      "version": "20240905-2.el10_0.1",
+      "purl": "pkg:rpm/redhat/iputils@20240905-2.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0594e79a-6e11-4d8a-9574-a48304fe01d4",
+      "type": "library",
+      "name": "logrotate",
+      "version": "3.22.0-4.el10",
+      "purl": "pkg:rpm/redhat/logrotate@3.22.0-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "736b5f3b-358a-494a-aa25-5d1b3d3ca59a",
+      "type": "library",
+      "name": "binutils-gold",
+      "version": "2.41-53.el10",
+      "purl": "pkg:rpm/redhat/binutils-gold@2.41-53.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "92e57bc5-9c7a-4ec0-ac54-f0b2ffb3e3c7",
+      "type": "library",
+      "name": "binutils",
+      "version": "2.41-53.el10",
+      "purl": "pkg:rpm/redhat/binutils@2.41-53.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "89ba49d0-8dcb-46d1-93d7-5d2d1e924457",
+      "type": "library",
+      "name": "kpartx",
+      "version": "0.9.9-6.el10_0.2",
+      "purl": "pkg:rpm/redhat/kpartx@0.9.9-6.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6b6bedc3-5b07-43b3-b4c5-9ec95fdae35e",
+      "type": "library",
+      "name": "openssh",
+      "version": "9.9p1-7.el10_0",
+      "purl": "pkg:rpm/redhat/openssh@9.9p1-7.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "77b682ae-da3b-4c4c-968f-73019982c438",
+      "type": "library",
+      "name": "openssh-clients",
+      "version": "9.9p1-7.el10_0",
+      "purl": "pkg:rpm/redhat/openssh-clients@9.9p1-7.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "57699e12-5abc-47cb-b06d-a268a277a6b7",
+      "type": "library",
+      "name": "virt-what",
+      "version": "1.27-2.el10",
+      "purl": "pkg:rpm/redhat/virt-what@1.27-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "40102b8a-13b8-4006-89dd-8c36d587d2c1",
+      "type": "library",
+      "name": "device-mapper-event",
+      "version": "10:1.02.202-6.el10",
+      "purl": "pkg:rpm/redhat/device-mapper-event@10%3A1.02.202-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "86e1d766-aa04-45e7-85ca-0dada2f29217",
+      "type": "library",
+      "name": "lvm2-libs",
+      "version": "10:2.03.28-6.el10",
+      "purl": "pkg:rpm/redhat/lvm2-libs@10%3A2.03.28-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "8d99e5ed-d421-4bea-ada6-49d546d8c04d",
+      "type": "library",
+      "name": "lvm2",
+      "version": "10:2.03.28-6.el10",
+      "purl": "pkg:rpm/redhat/lvm2@10%3A2.03.28-6.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=10"
+    },
+    {
+      "bom-ref": "32e6b2fe-015e-498f-89a5-790213f57d15",
+      "type": "library",
+      "name": "dhcpcd",
+      "version": "10.0.6-7.el10",
+      "purl": "pkg:rpm/redhat/dhcpcd@10.0.6-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c5007dac-4de4-4231-a05a-cba2ab5d3504",
+      "type": "library",
+      "name": "gssproxy",
+      "version": "0.9.2-10.el10",
+      "purl": "pkg:rpm/redhat/gssproxy@0.9.2-10.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e594d496-265a-4d61-8adf-64b2d76a1acb",
+      "type": "library",
+      "name": "initscripts-service",
+      "version": "10.26-2.el10",
+      "purl": "pkg:rpm/redhat/initscripts-service@10.26-2.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b5367805-8bf1-455c-87ae-653968d15235",
+      "type": "library",
+      "name": "audit-rules",
+      "version": "4.0.3-1.el10",
+      "purl": "pkg:rpm/redhat/audit-rules@4.0.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b4c4e38e-6230-46a0-a79d-f9e77016191e",
+      "type": "library",
+      "name": "audit",
+      "version": "4.0.3-1.el10",
+      "purl": "pkg:rpm/redhat/audit@4.0.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3df2cfb5-b6e6-4b21-b221-3b26a0562732",
+      "type": "library",
+      "name": "libkcapi",
+      "version": "1.5.0-3.el10",
+      "purl": "pkg:rpm/redhat/libkcapi@1.5.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0c493d2d-1e6e-4ae7-9dee-204fde801f92",
+      "type": "library",
+      "name": "libkcapi-hasher",
+      "version": "1.5.0-3.el10",
+      "purl": "pkg:rpm/redhat/libkcapi-hasher@1.5.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0b78e5bd-9255-488f-8a4b-3970a3f789dc",
+      "type": "library",
+      "name": "libkcapi-hmaccalc",
+      "version": "1.5.0-3.el10",
+      "purl": "pkg:rpm/redhat/libkcapi-hmaccalc@1.5.0-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b069e7a5-493d-49d2-b92f-25df8ad32dc0",
+      "type": "library",
+      "name": "mdadm",
+      "version": "4.3-5.el10",
+      "purl": "pkg:rpm/redhat/mdadm@4.3-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0501f003-6507-4547-8697-79906f197171",
+      "type": "library",
+      "name": "libblockdev-mdraid",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-mdraid@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a0a6e3ff-b08c-4444-add7-37221b3b5d9c",
+      "type": "library",
+      "name": "net-tools",
+      "version": "2.0-0.73.20160912git.el10",
+      "purl": "pkg:rpm/redhat/net-tools@2.0-0.73.20160912git.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f6b62dd8-9c88-4811-be39-2aa26e15de10",
+      "type": "library",
+      "name": "rpcbind",
+      "version": "1.2.7-3.el10",
+      "purl": "pkg:rpm/redhat/rpcbind@1.2.7-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "343b2e67-7623-4718-b389-42163b5a1623",
+      "type": "library",
+      "name": "ipmitool",
+      "version": "1.8.19-9.el10",
+      "purl": "pkg:rpm/redhat/ipmitool@1.8.19-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cba9b2e6-602f-4140-885e-b274c09b4a3c",
+      "type": "library",
+      "name": "sbd",
+      "version": "1.5.2-1.el10.5",
+      "purl": "pkg:rpm/redhat/sbd@1.5.2-1.el10.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8ebfd1d9-0dff-4fd2-b424-8427c3062129",
+      "type": "library",
+      "name": "makedumpfile",
+      "version": "1.7.6-4.el10",
+      "purl": "pkg:rpm/redhat/makedumpfile@1.7.6-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "29d1ef45-fdbc-4e00-abeb-690dd4900b76",
+      "type": "library",
+      "name": "libbabeltrace",
+      "version": "1.5.11-9.el10",
+      "purl": "pkg:rpm/redhat/libbabeltrace@1.5.11-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8e15e318-c6f3-414e-bc02-854ec56b9a79",
+      "type": "library",
+      "name": "device-mapper-multipath-libs",
+      "version": "0.9.9-6.el10_0.2",
+      "purl": "pkg:rpm/redhat/device-mapper-multipath-libs@0.9.9-6.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "49111a45-26b6-4745-8554-ef8a31303b09",
+      "type": "library",
+      "name": "device-mapper-multipath",
+      "version": "0.9.9-6.el10_0.2",
+      "purl": "pkg:rpm/redhat/device-mapper-multipath@0.9.9-6.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "df8fc717-9245-43c8-9b64-d0d1147912c5",
+      "type": "library",
+      "name": "libblockdev-part",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-part@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "31b5dccc-82e7-439c-a91b-a405ca501894",
+      "type": "library",
+      "name": "libblockdev-swap",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-swap@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "09114192-46b7-4c30-b348-e652803fcf9b",
+      "type": "library",
+      "name": "curl",
+      "version": "8.9.1-5.el10",
+      "purl": "pkg:rpm/redhat/curl@8.9.1-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4650d7f1-6c17-4f96-9199-260717d2272b",
+      "type": "library",
+      "name": "tpm2-tss-fapi",
+      "version": "4.1.3-5.el10",
+      "purl": "pkg:rpm/redhat/tpm2-tss-fapi@4.1.3-5.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "19862206-48aa-4ac2-ba34-89d41eda4ab5",
+      "type": "library",
+      "name": "tpm2-tools",
+      "version": "5.7-4.el10",
+      "purl": "pkg:rpm/redhat/tpm2-tools@5.7-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "aceaea61-c3f4-41e1-b7a3-d8ae15bd4152",
+      "type": "library",
+      "name": "grubby",
+      "version": "8.40-77.el10",
+      "purl": "pkg:rpm/redhat/grubby@8.40-77.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "70b70669-fc52-418d-a475-69912a1b25b7",
+      "type": "library",
+      "name": "systemd-udev",
+      "version": "257-9.el10_0.1",
+      "purl": "pkg:rpm/redhat/systemd-udev@257-9.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "65698d6f-91ea-4f64-8d10-c4132ac181f2",
+      "type": "library",
+      "name": "dracut",
+      "version": "105-4.el10_0",
+      "purl": "pkg:rpm/redhat/dracut@105-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "29d090a2-95ee-4bb0-aab7-5fd6c8756311",
+      "type": "library",
+      "name": "os-prober",
+      "version": "1.81-9.el10",
+      "purl": "pkg:rpm/redhat/os-prober@1.81-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7804f899-7ef5-409d-9a42-5d5245dd35b5",
+      "type": "library",
+      "name": "grub2-tools",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-tools@1%3A2.12-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "b69692e5-84a3-494a-9d5c-2394b39b42dc",
+      "type": "library",
+      "name": "kernel-modules-core",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel-modules-core@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f0dd537a-bc62-42d3-803d-24468f823e65",
+      "type": "library",
+      "name": "kernel-core",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel-core@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ba41a2e4-ce28-41dd-8311-c9120460e2b4",
+      "type": "library",
+      "name": "NetworkManager",
+      "version": "1:1.52.0-7.el10_0",
+      "purl": "pkg:rpm/redhat/NetworkManager@1%3A1.52.0-7.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "275a338f-b3e5-42fc-886d-13fad6abdb51",
+      "type": "library",
+      "name": "dracut-network",
+      "version": "105-4.el10_0",
+      "purl": "pkg:rpm/redhat/dracut-network@105-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6a20e34e-3db7-41fa-90fa-6cc98777a85b",
+      "type": "library",
+      "name": "kernel-modules",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel-modules@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b7d0eaa8-bf51-47e4-b6cf-1002a494d9b1",
+      "type": "library",
+      "name": "dracut-squash",
+      "version": "105-4.el10_0",
+      "purl": "pkg:rpm/redhat/dracut-squash@105-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "847f1bcd-4ca4-4587-818c-9af423c0ded2",
+      "type": "library",
+      "name": "kexec-tools",
+      "version": "2.0.29-2.el10",
+      "purl": "pkg:rpm/redhat/kexec-tools@2.0.29-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ac9799c0-d441-4b82-b263-1a3b0eadda9f",
+      "type": "library",
+      "name": "kdump-utils",
+      "version": "1.0.51-11.el10_0",
+      "purl": "pkg:rpm/redhat/kdump-utils@1.0.51-11.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ed6c70eb-2967-4190-805b-722493259ff9",
+      "type": "library",
+      "name": "flashrom",
+      "version": "1.3.0-8.el10",
+      "purl": "pkg:rpm/redhat/flashrom@1.3.0-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1202d1b4-8f03-461f-bb44-4505eb22a134",
+      "type": "library",
+      "name": "libwsman1",
+      "version": "2.7.2-9.el10",
+      "purl": "pkg:rpm/redhat/libwsman1@2.7.2-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d1ad96ff-3480-47bd-9183-2b6dbad50e49",
+      "type": "library",
+      "name": "sssd-client",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/sssd-client@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "166482de-d2ac-40b4-849f-1756c9774174",
+      "type": "library",
+      "name": "python3-pip-wheel",
+      "version": "23.3.2-7.el10",
+      "purl": "pkg:rpm/redhat/python3-pip-wheel@23.3.2-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4bbaba33-40d9-478d-bb91-f245af3e6c15",
+      "type": "library",
+      "name": "python-unversioned-command",
+      "version": "3.12.9-2.el10_0.3",
+      "purl": "pkg:rpm/redhat/python-unversioned-command@3.12.9-2.el10_0.3?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d47aa2f9-6da7-4079-b751-0d83dbccb669",
+      "type": "library",
+      "name": "python3",
+      "version": "3.12.9-2.el10_0.3",
+      "purl": "pkg:rpm/redhat/python3@3.12.9-2.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "08a873f8-e122-43f7-bae9-0338c1463ee5",
+      "type": "library",
+      "name": "python3-libs",
+      "version": "3.12.9-2.el10_0.3",
+      "purl": "pkg:rpm/redhat/python3-libs@3.12.9-2.el10_0.3?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8d3c3892-f9ab-4050-a841-1953f18971cf",
+      "type": "library",
+      "name": "python3-six",
+      "version": "1.16.0-16.el10",
+      "purl": "pkg:rpm/redhat/python3-six@1.16.0-16.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6eb7b83a-533b-4c9b-bf19-54c8a35d4f40",
+      "type": "library",
+      "name": "python3-dateutil",
+      "version": "1:2.9.0.post0-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-dateutil@1%3A2.9.0.post0-1.el10_0?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "b088bde2-612b-4e97-a494-4ec10230af74",
+      "type": "library",
+      "name": "python3-dbus",
+      "version": "1.3.2-8.el10",
+      "purl": "pkg:rpm/redhat/python3-dbus@1.3.2-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "35e8fc4b-dac5-436a-a51f-1c4954d06e9a",
+      "type": "library",
+      "name": "python3-gobject-base-noarch",
+      "version": "3.46.0-7.el10",
+      "purl": "pkg:rpm/redhat/python3-gobject-base-noarch@3.46.0-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d32f7e91-38d3-4d44-a4ab-fe7a397345d6",
+      "type": "library",
+      "name": "python3-gobject-base",
+      "version": "3.46.0-7.el10",
+      "purl": "pkg:rpm/redhat/python3-gobject-base@3.46.0-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5fdd50fe-e486-4f99-99e0-055f6473cc2d",
+      "type": "library",
+      "name": "python3-pyyaml",
+      "version": "6.0.1-19.el10",
+      "purl": "pkg:rpm/redhat/python3-pyyaml@6.0.1-19.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8bfdafdd-004c-4f0d-9a2d-34c3efb3a541",
+      "type": "library",
+      "name": "python3-libselinux",
+      "version": "3.8-2.el10_0",
+      "purl": "pkg:rpm/redhat/python3-libselinux@3.8-2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1f5909dc-4c8c-43a6-b228-1c9b2af2038b",
+      "type": "library",
+      "name": "python3-iniparse",
+      "version": "0.5-10.el10",
+      "purl": "pkg:rpm/redhat/python3-iniparse@0.5-10.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "80f391a1-0c50-461a-a899-4f6047d6b5bd",
+      "type": "library",
+      "name": "unbound-anchor",
+      "version": "1.20.0-12.el10_0",
+      "purl": "pkg:rpm/redhat/unbound-anchor@1.20.0-12.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b7bf37c6-adb4-4bca-9e75-1766dc54d852",
+      "type": "library",
+      "name": "unbound-libs",
+      "version": "1.20.0-12.el10_0",
+      "purl": "pkg:rpm/redhat/unbound-libs@1.20.0-12.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "37922965-d6b0-49d3-a226-6da2df0136fe",
+      "type": "library",
+      "name": "python3-attrs",
+      "version": "23.2.0-7.el10",
+      "purl": "pkg:rpm/redhat/python3-attrs@23.2.0-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "79262b78-d232-4a15-976b-505f3d72bd7e",
+      "type": "library",
+      "name": "python3-idna",
+      "version": "3.7-4.el10",
+      "purl": "pkg:rpm/redhat/python3-idna@3.7-4.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c3b1924d-365f-4603-b669-284b14f79a94",
+      "type": "library",
+      "name": "python3-inotify",
+      "version": "0.9.6-36.el10",
+      "purl": "pkg:rpm/redhat/python3-inotify@0.9.6-36.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a5463ded-f0d9-49da-ac8c-a1a9aa23fccf",
+      "type": "library",
+      "name": "python3-ptyprocess",
+      "version": "0.7.0-9.el10",
+      "purl": "pkg:rpm/redhat/python3-ptyprocess@0.7.0-9.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8a76148b-2338-4d52-b26d-884cb979d5d0",
+      "type": "library",
+      "name": "python3-rpds-py",
+      "version": "0.17.1-6.el10",
+      "purl": "pkg:rpm/redhat/python3-rpds-py@0.17.1-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "befedd6d-8079-4a08-b088-6f1d9d63a2ca",
+      "type": "library",
+      "name": "python3-referencing",
+      "version": "0.31.1-6.el10",
+      "purl": "pkg:rpm/redhat/python3-referencing@0.31.1-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "adeb60ee-9f03-47c2-9f5e-60f3a6a96654",
+      "type": "library",
+      "name": "python3-setuptools",
+      "version": "69.0.3-12.el10_0",
+      "purl": "pkg:rpm/redhat/python3-setuptools@69.0.3-12.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a5ab56a2-829f-4e27-b423-8bbcc17bd3a1",
+      "type": "library",
+      "name": "python3-setools",
+      "version": "4.5.1-4.el10",
+      "purl": "pkg:rpm/redhat/python3-setools@4.5.1-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e8db04e1-f769-44a8-b818-0bb230ea5edf",
+      "type": "library",
+      "name": "python3-jsonschema-specifications",
+      "version": "2023.11.2-6.el10",
+      "purl": "pkg:rpm/redhat/python3-jsonschema-specifications@2023.11.2-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1b39ea78-b388-4405-b202-ce54976ad1c1",
+      "type": "library",
+      "name": "python3-jsonschema",
+      "version": "4.19.1-7.el10",
+      "purl": "pkg:rpm/redhat/python3-jsonschema@4.19.1-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "af91f063-0d77-4216-a937-cf941f23de88",
+      "type": "library",
+      "name": "kernel-tools",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel-tools@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4379e0da-7758-47e3-8364-e7cecd4b1267",
+      "type": "library",
+      "name": "python3-pexpect",
+      "version": "4.9.0-6.el10",
+      "purl": "pkg:rpm/redhat/python3-pexpect@4.9.0-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "88414f29-8ec0-4012-9361-b025b49e9dc2",
+      "type": "library",
+      "name": "fence-agents-common",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-common@4.16.0-5.el10_0.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6015699b-3380-47f0-8b57-c7432767b48d",
+      "type": "library",
+      "name": "fence-agents-apc",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-apc@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a5efdce4-9151-4f7d-9698-ee1bab965db5",
+      "type": "library",
+      "name": "fence-agents-apc-snmp",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-apc-snmp@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7f64355d-3580-42e0-9cd3-2c37e2b6c3ac",
+      "type": "library",
+      "name": "fence-agents-bladecenter",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-bladecenter@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "eb4e856f-5276-4221-a696-658fa95edca0",
+      "type": "library",
+      "name": "fence-agents-brocade",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-brocade@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1c39f957-9b61-4fe2-a0de-c3c6537e0cf2",
+      "type": "library",
+      "name": "fence-agents-cisco-mds",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-cisco-mds@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cdf0878d-13e2-4427-ae36-af310ce3c10d",
+      "type": "library",
+      "name": "fence-agents-cisco-ucs",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-cisco-ucs@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "39b633b7-181f-4046-84d4-c4396a7417cf",
+      "type": "library",
+      "name": "fence-agents-drac5",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-drac5@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dfe0aa2b-0736-4458-a315-2945600c66e3",
+      "type": "library",
+      "name": "fence-agents-eaton-snmp",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-eaton-snmp@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "68606c29-dd1a-44d0-b0cb-ae450f4528f0",
+      "type": "library",
+      "name": "fence-agents-emerson",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-emerson@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "63ebb90d-a321-4efd-81c6-698804143cd1",
+      "type": "library",
+      "name": "fence-agents-eps",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-eps@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2365f35a-a54b-4588-889f-2b618974079b",
+      "type": "library",
+      "name": "fence-agents-heuristics-ping",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-heuristics-ping@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e7b77bab-3b2b-424a-b8fe-3cc44a0c6fdc",
+      "type": "library",
+      "name": "fence-agents-hpblade",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-hpblade@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f87928d6-8ebe-400e-91c6-2aa997d197e7",
+      "type": "library",
+      "name": "fence-agents-ibmblade",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ibmblade@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0e1066a3-ae4b-4453-a96f-3a9732c33d5a",
+      "type": "library",
+      "name": "fence-agents-ifmib",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ifmib@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3b51542e-a794-48dd-afdc-6dffb2719ddd",
+      "type": "library",
+      "name": "fence-agents-ilo-moonshot",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ilo-moonshot@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7ff78ff8-8610-480e-943a-5317ca3cba12",
+      "type": "library",
+      "name": "fence-agents-ilo-mp",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ilo-mp@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "00a88e50-0afa-4c8b-b724-917b2f5e7657",
+      "type": "library",
+      "name": "fence-agents-ilo-ssh",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ilo-ssh@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "45e7afed-325b-46a3-a6a2-ae5c4ad0b65d",
+      "type": "library",
+      "name": "fence-agents-intelmodular",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-intelmodular@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "71237237-854c-47bb-834c-3d45fac18512",
+      "type": "library",
+      "name": "fence-agents-ipdu",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ipdu@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7846a60d-0ede-4075-bcd8-4b2ff510c30a",
+      "type": "library",
+      "name": "fence-agents-ipmilan",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ipmilan@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "82757731-0128-403f-b58e-2441f33fd12a",
+      "type": "library",
+      "name": "fence-agents-kdump",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-kdump@4.16.0-5.el10_0.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "17c7c4dd-3a5e-4c4c-bdd1-8c4975c1d84d",
+      "type": "library",
+      "name": "fence-agents-mpath",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-mpath@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d18701b7-4ecf-498c-baca-31194f1a132a",
+      "type": "library",
+      "name": "fence-agents-rhevm",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-rhevm@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "83d2f557-868c-46a6-a267-c7d8399275f0",
+      "type": "library",
+      "name": "fence-agents-rsa",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-rsa@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c781becd-7b40-4b8f-a721-9f8d4f22845f",
+      "type": "library",
+      "name": "fence-agents-rsb",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-rsb@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a276e5db-68d0-435e-ba96-6845ad3fc51f",
+      "type": "library",
+      "name": "fence-agents-sbd",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-sbd@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "df0a6006-cff7-4787-b28a-445e16551d45",
+      "type": "library",
+      "name": "fence-agents-scsi",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-scsi@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dda58b45-3d5b-4d7f-a12b-793085d9deb2",
+      "type": "library",
+      "name": "fence-agents-vmware-rest",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-vmware-rest@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "af73a927-1194-4aba-b3b4-bd2ba1b2161b",
+      "type": "library",
+      "name": "fence-agents-vmware-soap",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-vmware-soap@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a271c233-2153-4aea-87ea-a8ead7a419ea",
+      "type": "library",
+      "name": "fence-agents-wti",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-wti@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1cd8743b-0e9a-486c-97d0-3c86bdf80346",
+      "type": "library",
+      "name": "python3-urllib3",
+      "version": "1.26.19-2.el10",
+      "purl": "pkg:rpm/redhat/python3-urllib3@1.26.19-2.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f265d7a1-775d-4c3b-b24a-4abeb6112ef5",
+      "type": "library",
+      "name": "gnutls-dane",
+      "version": "3.8.9-9.el10_0.14",
+      "purl": "pkg:rpm/redhat/gnutls-dane@3.8.9-9.el10_0.14?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f064f6d7-1561-4fd0-9e88-25a155c23935",
+      "type": "library",
+      "name": "gnutls-utils",
+      "version": "3.8.9-9.el10_0.14",
+      "purl": "pkg:rpm/redhat/gnutls-utils@3.8.9-9.el10_0.14?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b4ee034f-a4ae-420f-a758-f2dc37934c1a",
+      "type": "library",
+      "name": "fence-agents-ilo2",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-ilo2@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "df4f5dfd-8032-4a8f-8a28-c58068c0e976",
+      "type": "library",
+      "name": "python3-libsemanage",
+      "version": "3.8.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-libsemanage@3.8.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9abbbf6d-b3aa-45cf-8a9e-214d6733cd30",
+      "type": "library",
+      "name": "python3-linux-procfs",
+      "version": "0.7.3-7.el10",
+      "purl": "pkg:rpm/redhat/python3-linux-procfs@0.7.3-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "218797f0-af78-4b88-a841-18bde9b4b953",
+      "type": "library",
+      "name": "python3-configobj",
+      "version": "5.0.8-10.el10",
+      "purl": "pkg:rpm/redhat/python3-configobj@5.0.8-10.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "099f9efb-d303-48da-a3a7-c66c941653ee",
+      "type": "library",
+      "name": "python3-libcomps",
+      "version": "0.1.21-3.el10",
+      "purl": "pkg:rpm/redhat/python3-libcomps@0.1.21-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9cd81fc2-951e-41c5-9cb5-bd0a8bfdc26f",
+      "type": "library",
+      "name": "sudo",
+      "version": "1.9.15-8.p5.el10_0.2",
+      "purl": "pkg:rpm/redhat/sudo@1.9.15-8.p5.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cb504b2a-ed9a-44d9-aa16-17e25825c6b6",
+      "type": "library",
+      "name": "sudo-python-plugin",
+      "version": "1.9.15-8.p5.el10_0.2",
+      "purl": "pkg:rpm/redhat/sudo-python-plugin@1.9.15-8.p5.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c902e73c-6e19-419a-b893-51276e67564b",
+      "type": "library",
+      "name": "nfs-utils",
+      "version": "1:2.8.2-3.el10",
+      "purl": "pkg:rpm/redhat/nfs-utils@1%3A2.8.2-3.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "ae021823-ff39-45f6-a167-6f645d7604fd",
+      "type": "library",
+      "name": "resource-agents",
+      "version": "4.16.0-9.el10_0.2",
+      "purl": "pkg:rpm/redhat/resource-agents@4.16.0-9.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "915c06da-ec7b-408d-8ac5-76f7d5c90441",
+      "type": "library",
+      "name": "pcsc-lite-ccid",
+      "version": "1.6.0-2.el10",
+      "purl": "pkg:rpm/redhat/pcsc-lite-ccid@1.6.0-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6ef4432b-5916-4e1c-9867-16d846c6b852",
+      "type": "library",
+      "name": "pcsc-lite",
+      "version": "2.2.3-2.el10",
+      "purl": "pkg:rpm/redhat/pcsc-lite@2.2.3-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fa084158-07a3-4965-9429-3a4ce9b67dd9",
+      "type": "library",
+      "name": "gnupg2-smime",
+      "version": "2.4.5-2.el10",
+      "purl": "pkg:rpm/redhat/gnupg2-smime@2.4.5-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "47af23fa-8bd3-4c2b-88b3-f2af0fa8269f",
+      "type": "library",
+      "name": "gnupg2",
+      "version": "2.4.5-2.el10",
+      "purl": "pkg:rpm/redhat/gnupg2@2.4.5-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6be92f31-98d3-47c5-bdea-35264e3f72a2",
+      "type": "library",
+      "name": "gpgme",
+      "version": "1.23.2-6.el10",
+      "purl": "pkg:rpm/redhat/gpgme@1.23.2-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "593a9539-e74e-40c0-81bb-e411bfe8d136",
+      "type": "library",
+      "name": "libjcat",
+      "version": "0.2.2-2.el10",
+      "purl": "pkg:rpm/redhat/libjcat@0.2.2-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e64dc32c-464a-4b02-b95b-e907e2d60c21",
+      "type": "library",
+      "name": "python3-charset-normalizer",
+      "version": "3.3.2-7.el10",
+      "purl": "pkg:rpm/redhat/python3-charset-normalizer@3.3.2-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5266e36b-2f2a-4560-8f76-146c19de79bd",
+      "type": "library",
+      "name": "python3-requests",
+      "version": "2.32.4-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-requests@2.32.4-1.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a3443767-66a9-423d-a165-58a7e7d313c0",
+      "type": "library",
+      "name": "python3-cloud-what",
+      "version": "1.30.6.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-cloud-what@1.30.6.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "30f07479-a8e0-4a8b-ac2f-e8c6d2ccaa4d",
+      "type": "library",
+      "name": "fence-agents-redfish",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-redfish@4.16.0-5.el10_0.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f476a522-5827-4f8b-88ba-1d81ec8878c1",
+      "type": "library",
+      "name": "python3-decorator",
+      "version": "5.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/python3-decorator@5.1.1-12.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "98037d5d-fd3e-4a25-acff-6ba41e17948e",
+      "type": "library",
+      "name": "python3-ply",
+      "version": "3.11-25.el10",
+      "purl": "pkg:rpm/redhat/python3-ply@3.11-25.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8cb50625-4413-4ad1-b370-a360472686c9",
+      "type": "library",
+      "name": "python3-pycparser",
+      "version": "2.20-16.el10",
+      "purl": "pkg:rpm/redhat/python3-pycparser@2.20-16.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "da8ef644-dfde-4182-9d13-3aa24cc96177",
+      "type": "library",
+      "name": "python3-cffi",
+      "version": "1.16.0-7.el10",
+      "purl": "pkg:rpm/redhat/python3-cffi@1.16.0-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "61fc9515-f102-4413-b715-676ee81a1d79",
+      "type": "library",
+      "name": "python3-cryptography",
+      "version": "43.0.0-4.el10",
+      "purl": "pkg:rpm/redhat/python3-cryptography@43.0.0-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "19a7a22f-0847-4b9e-b0c5-8bd9846c0135",
+      "type": "library",
+      "name": "python3-pyparsing",
+      "version": "3.1.1-7.el10",
+      "purl": "pkg:rpm/redhat/python3-pyparsing@3.1.1-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1fb98ceb-7922-44f7-8280-14d2a4737e4c",
+      "type": "library",
+      "name": "python3-pyudev",
+      "version": "0.24.1-10.el10",
+      "purl": "pkg:rpm/redhat/python3-pyudev@0.24.1-10.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8d292d88-0601-4fa2-ab7d-98eec283eeeb",
+      "type": "library",
+      "name": "python3-systemd",
+      "version": "235-11.el10",
+      "purl": "pkg:rpm/redhat/python3-systemd@235-11.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8e8fcc48-43fb-4b09-a8ab-7833e0abdbe7",
+      "type": "library",
+      "name": "openwsman-python3",
+      "version": "2.7.2-9.el10",
+      "purl": "pkg:rpm/redhat/openwsman-python3@2.7.2-9.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2a222ef9-31a3-4591-94dd-5ff6c69cb11d",
+      "type": "library",
+      "name": "fence-agents-amt-ws",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-amt-ws@4.16.0-5.el10_0.5?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0c294749-fd98-402c-8bc2-263d01f4b8c6",
+      "type": "library",
+      "name": "python3-audit",
+      "version": "4.0.3-1.el10",
+      "purl": "pkg:rpm/redhat/python3-audit@4.0.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "06093da9-e984-4336-a449-65cdbd00e314",
+      "type": "library",
+      "name": "python3-distro",
+      "version": "1.9.0-5.el10",
+      "purl": "pkg:rpm/redhat/python3-distro@1.9.0-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0a1591a5-4f6c-4f9c-950a-432e008eb122",
+      "type": "library",
+      "name": "python3-file-magic",
+      "version": "5.45-7.el10",
+      "purl": "pkg:rpm/redhat/python3-file-magic@5.45-7.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fe9534f5-87a8-48a9-a613-e9b61656f4ee",
+      "type": "library",
+      "name": "python3-jsonpointer",
+      "version": "2.3-9.el10",
+      "purl": "pkg:rpm/redhat/python3-jsonpointer@2.3-9.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f992d855-ef33-488e-a06f-58747cf3e7b5",
+      "type": "library",
+      "name": "python3-jsonpatch",
+      "version": "1.33-6.el10",
+      "purl": "pkg:rpm/redhat/python3-jsonpatch@1.33-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2f434a0e-f3b3-4343-8145-4a29ab71710e",
+      "type": "library",
+      "name": "python3-lxml",
+      "version": "5.2.1-4.el10",
+      "purl": "pkg:rpm/redhat/python3-lxml@5.2.1-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "37320f68-c9a3-48aa-a089-14d68a0aa504",
+      "type": "library",
+      "name": "python3-markupsafe",
+      "version": "2.1.3-6.el10",
+      "purl": "pkg:rpm/redhat/python3-markupsafe@2.1.3-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5d6462c2-42ea-4b7b-9de7-af95afe36e4e",
+      "type": "library",
+      "name": "python3-jinja2",
+      "version": "3.1.6-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-jinja2@3.1.6-1.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a664e4dd-2430-44aa-a083-e9b0120baca2",
+      "type": "library",
+      "name": "python3-oauthlib",
+      "version": "3.2.2-6.el10",
+      "purl": "pkg:rpm/redhat/python3-oauthlib@3.2.2-6.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dab22300-7009-4731-8831-12eaa058477a",
+      "type": "library",
+      "name": "python3-pyserial",
+      "version": "3.5-11.el10",
+      "purl": "pkg:rpm/redhat/python3-pyserial@3.5-11.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "df72fb51-5bb4-4323-8b92-0bb38fceec03",
+      "type": "library",
+      "name": "python3-tornado",
+      "version": "6.4.2-1.el10_0.1",
+      "purl": "pkg:rpm/redhat/python3-tornado@6.4.2-1.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "30ee84d1-169a-462a-9b2a-c90deb4a02dc",
+      "type": "library",
+      "name": "perl-Digest",
+      "version": "1.20-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Digest@1.20-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2c47c5d6-dc69-408f-8985-b3903688eb7b",
+      "type": "library",
+      "name": "perl-Digest-MD5",
+      "version": "2.59-6.el10",
+      "purl": "pkg:rpm/redhat/perl-Digest-MD5@2.59-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fd2d7044-8c19-484b-be27-359895d62a97",
+      "type": "library",
+      "name": "perl-B",
+      "version": "1.89-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-B@1.89-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "681a86a8-4f6f-4517-9489-63f472cd819e",
+      "type": "library",
+      "name": "perl-FileHandle",
+      "version": "2.05-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-FileHandle@2.05-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a1470cee-1b77-4da8-9d0c-562e8e5bf384",
+      "type": "library",
+      "name": "perl-Data-Dumper",
+      "version": "2.189-512.el10",
+      "purl": "pkg:rpm/redhat/perl-Data-Dumper@2.189-512.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6f13ea7b-82df-48f1-89f5-e6b0f6a07677",
+      "type": "library",
+      "name": "perl-libnet",
+      "version": "3.15-512.el10",
+      "purl": "pkg:rpm/redhat/perl-libnet@3.15-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b350d8d0-d1ac-4342-b073-433a8e7ca961",
+      "type": "library",
+      "name": "perl-AutoLoader",
+      "version": "5.74-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-AutoLoader@5.74-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "23b51932-438b-4223-9c8a-88e21fa23414",
+      "type": "library",
+      "name": "perl-URI",
+      "version": "5.27-3.el10",
+      "purl": "pkg:rpm/redhat/perl-URI@5.27-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "93eef659-e549-4bf9-a443-581d39e28991",
+      "type": "library",
+      "name": "perl-Text-Tabs+Wrap",
+      "version": "2024.001-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Text-Tabs%2BWrap@2024.001-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "cb6f4efa-41a2-4df5-8830-f1854d7355f2",
+      "type": "library",
+      "name": "perl-if",
+      "version": "0.61.000-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-if@0.61.000-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "89ddc5fd-ab43-4d19-ac3d-6cb7a01af0a5",
+      "type": "library",
+      "name": "perl-locale",
+      "version": "1.12-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-locale@1.12-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7b390f1d-6d9f-4f5d-a482-1d51bcf4c542",
+      "type": "library",
+      "name": "perl-IO-Socket-IP",
+      "version": "0.42-512.el10",
+      "purl": "pkg:rpm/redhat/perl-IO-Socket-IP@0.42-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f65ba320-b3bf-4203-b6fe-72da66883597",
+      "type": "library",
+      "name": "perl-Time-Local",
+      "version": "2:1.350-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Time-Local@2%3A1.350-511.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "e019bc9f-7b4d-4da4-8c26-3a98d3d57def",
+      "type": "library",
+      "name": "perl-File-Path",
+      "version": "2.18-511.el10",
+      "purl": "pkg:rpm/redhat/perl-File-Path@2.18-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "451f6308-709f-4962-8963-9c039ed8a56f",
+      "type": "library",
+      "name": "perl-IO-Socket-SSL",
+      "version": "2.085-3.el10",
+      "purl": "pkg:rpm/redhat/perl-IO-Socket-SSL@2.085-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e2f9b185-5861-45b6-bd69-3d9bafc438d1",
+      "type": "library",
+      "name": "perl-Net-SSLeay",
+      "version": "1.94-7.el10",
+      "purl": "pkg:rpm/redhat/perl-Net-SSLeay@1.94-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "815319b9-0217-427c-9863-aa1929b7f8b4",
+      "type": "library",
+      "name": "perl-Pod-Escapes",
+      "version": "1:1.07-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Pod-Escapes@1%3A1.07-511.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "ceb53882-4e10-4bd8-af66-b680f203f345",
+      "type": "library",
+      "name": "perl-Mozilla-CA",
+      "version": "20231213-5.el10",
+      "purl": "pkg:rpm/redhat/perl-Mozilla-CA@20231213-5.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ff14e509-cf8f-4d67-88f5-b2ef18a60cc6",
+      "type": "library",
+      "name": "perl-Class-Struct",
+      "version": "0.68-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-Class-Struct@0.68-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1a9c3b21-464f-4b77-9fed-0ac2f9902d68",
+      "type": "library",
+      "name": "perl-Term-ANSIColor",
+      "version": "5.01-512.el10",
+      "purl": "pkg:rpm/redhat/perl-Term-ANSIColor@5.01-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "358e163e-0899-43b5-8826-b41351d54a4d",
+      "type": "library",
+      "name": "perl-POSIX",
+      "version": "2.20-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-POSIX@2.20-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3659f874-3164-480a-a1ea-2f3403188572",
+      "type": "library",
+      "name": "perl-IPC-Open3",
+      "version": "1.22-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-IPC-Open3@1.22-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d8fb1cee-e25e-4c12-832f-510d07c09327",
+      "type": "library",
+      "name": "perl-File-Temp",
+      "version": "1:0.231.100-512.el10",
+      "purl": "pkg:rpm/redhat/perl-File-Temp@1%3A0.231.100-512.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "b053543e-1055-44d0-a42c-77a11f61aa12",
+      "type": "library",
+      "name": "perl-Term-Cap",
+      "version": "1.18-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Term-Cap@1.18-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "7497f835-935a-42d5-99fe-7430e5710f60",
+      "type": "library",
+      "name": "perl-Pod-Simple",
+      "version": "1:3.45-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Pod-Simple@1%3A3.45-511.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "7bedc6fd-8ea0-4ae7-b37c-ecc6640b6071",
+      "type": "library",
+      "name": "perl-HTTP-Tiny",
+      "version": "0.088-512.el10",
+      "purl": "pkg:rpm/redhat/perl-HTTP-Tiny@0.088-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c97d1146-5bed-4bf9-bdfd-004f22e50c60",
+      "type": "library",
+      "name": "perl-Socket",
+      "version": "4:2.038-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Socket@4%3A2.038-511.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "1170d18a-f499-44e7-881b-3d6e199c80dd",
+      "type": "library",
+      "name": "perl-SelectSaver",
+      "version": "1.02-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-SelectSaver@1.02-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c344dd87-d19e-478a-86ea-3c3719c217a1",
+      "type": "library",
+      "name": "perl-Symbol",
+      "version": "1.09-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-Symbol@1.09-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "75e64f5a-340f-4c01-b42f-05f2272e8aa7",
+      "type": "library",
+      "name": "perl-File-stat",
+      "version": "1.14-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-File-stat@1.14-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "bf2ca7ec-eafd-4fd5-95df-ad3896d8d078",
+      "type": "library",
+      "name": "perl-podlators",
+      "version": "1:5.01-511.el10",
+      "purl": "pkg:rpm/redhat/perl-podlators@1%3A5.01-511.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "c87c18fe-c7cb-4bf9-902e-55286adf8679",
+      "type": "library",
+      "name": "perl-Pod-Perldoc",
+      "version": "3.28.01-512.el10",
+      "purl": "pkg:rpm/redhat/perl-Pod-Perldoc@3.28.01-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5f4d06e2-65ae-492d-9d16-8040dafbc7fc",
+      "type": "library",
+      "name": "perl-Fcntl",
+      "version": "1.18-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-Fcntl@1.18-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9e6fa9ed-8ed0-4ecc-9866-1ba847c52456",
+      "type": "library",
+      "name": "perl-Text-ParseWords",
+      "version": "3.31-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Text-ParseWords@3.31-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6af4e4e1-4fc6-4288-bee5-62227b839875",
+      "type": "library",
+      "name": "perl-base",
+      "version": "2.27-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-base@2.27-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d990a5d6-9247-489e-8b7b-86b762d39357",
+      "type": "library",
+      "name": "perl-mro",
+      "version": "1.29-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-mro@1.29-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b19b0b24-90e2-4068-b476-864b7e7841f7",
+      "type": "library",
+      "name": "perl-IO",
+      "version": "1.55-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-IO@1.55-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ddb2cc3e-7321-4979-bbce-28bbb7d668ae",
+      "type": "library",
+      "name": "perl-overloading",
+      "version": "0.02-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-overloading@0.02-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4092ba28-9397-4cc9-929c-bfbd613355db",
+      "type": "library",
+      "name": "perl-Pod-Usage",
+      "version": "4:2.03-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Pod-Usage@4%3A2.03-511.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "e3c7190d-5a51-46b5-956e-7955cd46e8d2",
+      "type": "library",
+      "name": "perl-Errno",
+      "version": "1.38-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-Errno@1.38-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "5e096f03-ee88-456f-b3e5-a2482cef390c",
+      "type": "library",
+      "name": "perl-File-Basename",
+      "version": "2.86-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-File-Basename@2.86-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "19d42601-d410-44f1-9659-12aa9b4cec39",
+      "type": "library",
+      "name": "perl-Getopt-Std",
+      "version": "1.14-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-Getopt-Std@1.14-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b0a5561d-70bd-4558-906a-5361bfc3639e",
+      "type": "library",
+      "name": "perl-MIME-Base64",
+      "version": "3.16-511.el10",
+      "purl": "pkg:rpm/redhat/perl-MIME-Base64@3.16-511.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0f7966b6-b23b-44b7-bd27-cf6ee4f3ec81",
+      "type": "library",
+      "name": "perl-Scalar-List-Utils",
+      "version": "5:1.63-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Scalar-List-Utils@5%3A1.63-511.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=5"
+    },
+    {
+      "bom-ref": "8f35de70-3736-4281-870a-4fab9cc88ab1",
+      "type": "library",
+      "name": "perl-constant",
+      "version": "1.33-512.el10",
+      "purl": "pkg:rpm/redhat/perl-constant@1.33-512.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "11eb76be-4847-4c5c-861c-0d7f37dc5ff2",
+      "type": "library",
+      "name": "perl-Storable",
+      "version": "1:3.32-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Storable@1%3A3.32-511.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "b869cf39-8344-4303-aa77-c4ce39b11e00",
+      "type": "library",
+      "name": "perl-overload",
+      "version": "1.37-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-overload@1.37-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a27fc9ec-6f8a-4972-8af0-bb398ac6bf3e",
+      "type": "library",
+      "name": "perl-parent",
+      "version": "1:0.241-512.el10",
+      "purl": "pkg:rpm/redhat/perl-parent@1%3A0.241-512.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "9ed0ebb6-43c1-4bec-be92-97561f7c8c14",
+      "type": "library",
+      "name": "perl-vars",
+      "version": "1.05-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-vars@1.05-512.2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "811a8174-7787-4cf0-8785-4eca20050992",
+      "type": "library",
+      "name": "perl-Getopt-Long",
+      "version": "1:2.58-3.el10",
+      "purl": "pkg:rpm/redhat/perl-Getopt-Long@1%3A2.58-3.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "102d787e-1bac-40a9-a4b2-127c8a4db9b2",
+      "type": "library",
+      "name": "perl-Carp",
+      "version": "1.54-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Carp@1.54-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "69b8948d-7bd0-4e4c-a10f-f48bf77db087",
+      "type": "library",
+      "name": "perl-Exporter",
+      "version": "5.78-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Exporter@5.78-511.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "659639de-4904-4715-b269-43bbe0f092c7",
+      "type": "library",
+      "name": "perl-NDBM_File",
+      "version": "1.17-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-NDBM_File@1.17-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "22be7a6b-6ee8-4213-969c-fe780bf904c3",
+      "type": "library",
+      "name": "perl-PathTools",
+      "version": "3.91-512.el10",
+      "purl": "pkg:rpm/redhat/perl-PathTools@3.91-512.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3722929d-b436-4917-aba3-ddbfb13699ba",
+      "type": "library",
+      "name": "perl-DynaLoader",
+      "version": "1.56-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-DynaLoader@1.56-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6ed4a33a-ae1c-430e-be7e-9d8890ec2c51",
+      "type": "library",
+      "name": "perl-Encode",
+      "version": "4:3.21-511.el10",
+      "purl": "pkg:rpm/redhat/perl-Encode@4%3A3.21-511.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "723c1c76-c787-4ca6-bdcf-e1157ebc0b32",
+      "type": "library",
+      "name": "perl-libs",
+      "version": "4:5.40.2-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-libs@4%3A5.40.2-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "c267687f-d305-4c16-a08d-488de8a198a0",
+      "type": "library",
+      "name": "perl-interpreter",
+      "version": "4:5.40.2-512.2.el10_0",
+      "purl": "pkg:rpm/redhat/perl-interpreter@4%3A5.40.2-512.2.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "4f5b7ea6-d158-46d6-8794-d995beed11fe",
+      "type": "library",
+      "name": "perl-TimeDate",
+      "version": "1:2.33-16.el10",
+      "purl": "pkg:rpm/redhat/perl-TimeDate@1%3A2.33-16.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "2d3a1947-7d68-47b5-9ea9-357d52acff24",
+      "type": "library",
+      "name": "python3-perf",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-perf@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4943a409-18c0-4ff3-83ad-a22a323a7fcf",
+      "type": "library",
+      "name": "openssl",
+      "version": "1:3.2.2-16.el10_0.4",
+      "purl": "pkg:rpm/redhat/openssl@1%3A3.2.2-16.el10_0.4?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "26dc9776-25a6-4eeb-8aed-adef35e732c2",
+      "type": "library",
+      "name": "nss-sysinit",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss-sysinit@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e30a7165-331a-480b-8db6-5d6a07d4eb04",
+      "type": "library",
+      "name": "nss",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a28cda6d-fe95-4523-9fab-6bd354bbe1ba",
+      "type": "library",
+      "name": "libknet1-crypto-nss-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-crypto-nss-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "19cb9597-24c4-468d-af99-8185cfb30833",
+      "type": "library",
+      "name": "corosync",
+      "version": "3.1.9-1.el10_0.1",
+      "purl": "pkg:rpm/redhat/corosync@3.1.9-1.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "60b0b0c3-8903-453f-b8e0-66bfe0075b2a",
+      "type": "library",
+      "name": "pacemaker-cli",
+      "version": "3.0.0-5.1.el10_0",
+      "purl": "pkg:rpm/redhat/pacemaker-cli@3.0.0-5.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3f5e28a7-bb51-4102-9719-cadfd7f7be15",
+      "type": "library",
+      "name": "pacemaker",
+      "version": "3.0.0-5.1.el10_0",
+      "purl": "pkg:rpm/redhat/pacemaker@3.0.0-5.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e5d66055-3850-4501-a01d-5c0aa5897182",
+      "type": "library",
+      "name": "fence-virt",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-virt@4.16.0-5.el10_0.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3f1c3fd2-674a-4145-86c2-cea06f84fa04",
+      "type": "library",
+      "name": "nss-tools",
+      "version": "3.112.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/nss-tools@3.112.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "673b22a6-39ca-453b-a79f-69b7fc9095f8",
+      "type": "library",
+      "name": "volume_key-libs",
+      "version": "0.3.12-24.el10",
+      "purl": "pkg:rpm/redhat/volume_key-libs@0.3.12-24.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a511a05b-3d8c-4d9b-b14e-0bd907ccef42",
+      "type": "library",
+      "name": "libblockdev-crypto",
+      "version": "3.2.0-4.el10_0",
+      "purl": "pkg:rpm/redhat/libblockdev-crypto@3.2.0-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0066780b-9d1c-43f2-ad77-475b73a9b52d",
+      "type": "library",
+      "name": "udisks2",
+      "version": "2.10.90-5.el10_0.1",
+      "purl": "pkg:rpm/redhat/udisks2@2.10.90-5.el10_0.1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b5c5bf9a-6c38-4a3c-899f-4a6296aebc07",
+      "type": "library",
+      "name": "fwupd-plugin-flashrom",
+      "version": "1.9.26-3.el10",
+      "purl": "pkg:rpm/redhat/fwupd-plugin-flashrom@1.9.26-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "499b247c-375d-4260-b7cb-edb203a721ea",
+      "type": "library",
+      "name": "fwupd",
+      "version": "1.9.26-3.el10",
+      "purl": "pkg:rpm/redhat/fwupd@1.9.26-3.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d4d91685-86db-4988-bcb1-0536d34d3a0e",
+      "type": "library",
+      "name": "librhsm",
+      "version": "0.0.3-16.el10",
+      "purl": "pkg:rpm/redhat/librhsm@0.0.3-16.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "90f0c59d-17c6-4d9a-8c20-d0ffda3244ff",
+      "type": "library",
+      "name": "libsss_certmap",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/libsss_certmap@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "61f455ff-1afc-47a6-836c-a75afc9ccac0",
+      "type": "library",
+      "name": "sssd-common",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/sssd-common@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "736e9d9c-4131-423a-ab61-855c5a0c5749",
+      "type": "library",
+      "name": "sssd-krb5-common",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/sssd-krb5-common@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c13b9708-0b65-4a38-b20a-4c066a186481",
+      "type": "library",
+      "name": "mokutil",
+      "version": "2:0.6.0-11.el10",
+      "purl": "pkg:rpm/redhat/mokutil@2%3A0.6.0-11.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "95923545-62ec-47a4-a26f-c35e304bb926",
+      "type": "library",
+      "name": "rpm-sequoia",
+      "version": "1.6.0-6.el10",
+      "purl": "pkg:rpm/redhat/rpm-sequoia@1.6.0-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "fe3baa8b-c235-4e10-9ae1-2f01d6deddaa",
+      "type": "library",
+      "name": "rpm-plugin-audit",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-plugin-audit@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "355e179b-3e84-4037-b469-ce6530d222f1",
+      "type": "library",
+      "name": "rpm-libs",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-libs@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8ab5aae6-d367-4324-aa41-2d89c61ec264",
+      "type": "library",
+      "name": "librepo",
+      "version": "1.18.0-5.el10_0",
+      "purl": "pkg:rpm/redhat/librepo@1.18.0-5.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "1b0f04f7-b312-4990-89fa-3cec6de2e7cf",
+      "type": "library",
+      "name": "libmodulemd",
+      "version": "2.15.0-12.el10",
+      "purl": "pkg:rpm/redhat/libmodulemd@2.15.0-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0f27ac8a-15d4-468b-ab24-6ead5e6d7a25",
+      "type": "library",
+      "name": "libsolv",
+      "version": "0.7.29-8.el10",
+      "purl": "pkg:rpm/redhat/libsolv@0.7.29-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "11ccc6f9-1462-4292-b976-74eba0331a94",
+      "type": "library",
+      "name": "libdnf",
+      "version": "0.73.1-9.el10_0",
+      "purl": "pkg:rpm/redhat/libdnf@0.73.1-9.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "371ad4b8-03b4-4fd6-b36b-2b1760b3dfcf",
+      "type": "library",
+      "name": "python3-libdnf",
+      "version": "0.73.1-9.el10_0",
+      "purl": "pkg:rpm/redhat/python3-libdnf@0.73.1-9.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ed6e5cee-3cdf-49b1-818e-2c4c10f2f3d7",
+      "type": "library",
+      "name": "python3-hawkey",
+      "version": "0.73.1-9.el10_0",
+      "purl": "pkg:rpm/redhat/python3-hawkey@0.73.1-9.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "81fe57dd-632e-4325-95fd-5a87f4487ed2",
+      "type": "library",
+      "name": "libdnf-plugin-subscription-manager",
+      "version": "1.30.6.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/libdnf-plugin-subscription-manager@1.30.6.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "788fc45d-1979-4ff5-9bbf-4e65054c6600",
+      "type": "library",
+      "name": "amazon-libdnf-plugin",
+      "version": "1.0.3-1.el10",
+      "purl": "pkg:rpm/redhat/amazon-libdnf-plugin@1.0.3-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8b46168e-263e-43e7-8775-bf3454d69f1b",
+      "type": "library",
+      "name": "python3-librepo",
+      "version": "1.18.0-5.el10_0",
+      "purl": "pkg:rpm/redhat/python3-librepo@1.18.0-5.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4365531d-efe8-40f6-bc56-f5bfffb73b61",
+      "type": "library",
+      "name": "rpm",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d382c86a-8bce-4e68-b426-4c5a8c4b1742",
+      "type": "library",
+      "name": "policycoreutils",
+      "version": "3.8-1.el10",
+      "purl": "pkg:rpm/redhat/policycoreutils@3.8-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "dc818901-c385-4082-b047-5fd6e0c89862",
+      "type": "library",
+      "name": "selinux-policy",
+      "version": "40.13.26-1.el10",
+      "purl": "pkg:rpm/redhat/selinux-policy@40.13.26-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ee180490-df20-418a-88ee-012dd98ca7bb",
+      "type": "library",
+      "name": "selinux-policy-targeted",
+      "version": "40.13.26-1.el10",
+      "purl": "pkg:rpm/redhat/selinux-policy-targeted@40.13.26-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "05aa0a73-ccbb-4062-bbfb-09fadf3a093c",
+      "type": "library",
+      "name": "python3-policycoreutils",
+      "version": "3.8-1.el10",
+      "purl": "pkg:rpm/redhat/python3-policycoreutils@3.8-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a1f90ba0-f788-41c4-afb1-188c589757a6",
+      "type": "library",
+      "name": "policycoreutils-python-utils",
+      "version": "3.8-1.el10",
+      "purl": "pkg:rpm/redhat/policycoreutils-python-utils@3.8-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e0cae8a5-8647-40bf-8838-97d2592be21b",
+      "type": "library",
+      "name": "container-selinux",
+      "version": "4:2.235.0-2.el10_0",
+      "purl": "pkg:rpm/redhat/container-selinux@4%3A2.235.0-2.el10_0?arch=noarch\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "ec788dee-3864-4381-bf8c-8de2dbf9887d",
+      "type": "library",
+      "name": "containers-common",
+      "version": "5:0.62.0-1.el10",
+      "purl": "pkg:rpm/redhat/containers-common@5%3A0.62.0-1.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=5"
+    },
+    {
+      "bom-ref": "e11b8a96-3c68-44ca-aeac-101f1f45fc30",
+      "type": "library",
+      "name": "containers-common-extra",
+      "version": "5:0.62.0-1.el10",
+      "purl": "pkg:rpm/redhat/containers-common-extra@5%3A0.62.0-1.el10?arch=noarch\u0026distro=rhel-10.0\u0026epoch=5"
+    },
+    {
+      "bom-ref": "4ccfc733-1043-4c83-9939-164b47af769b",
+      "type": "library",
+      "name": "podman",
+      "version": "6:5.4.0-13.el10_0",
+      "purl": "pkg:rpm/redhat/podman@6%3A5.4.0-13.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=6"
+    },
+    {
+      "bom-ref": "268e3e21-176e-479d-8637-4b3769452b1d",
+      "type": "library",
+      "name": "rpm-build-libs",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-build-libs@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6be38d70-3852-42ae-9e01-9cb0cb8681b1",
+      "type": "library",
+      "name": "rpm-sign-libs",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-sign-libs@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "16265e53-fd33-461d-aab5-0a0e052331ca",
+      "type": "library",
+      "name": "python3-rpm",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/python3-rpm@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a14a737b-894a-46db-b5c7-ed912b2c0f0e",
+      "type": "library",
+      "name": "python3-subscription-manager-rhsm",
+      "version": "1.30.6.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/python3-subscription-manager-rhsm@1.30.6.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "11407995-df8e-4a2c-ba5e-5308416cfbc0",
+      "type": "library",
+      "name": "rpm-plugin-systemd-inhibit",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-plugin-systemd-inhibit@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "618014d1-213e-43ac-9d08-17d89c03b075",
+      "type": "library",
+      "name": "python3-dnf",
+      "version": "4.20.0-14.el10_0",
+      "purl": "pkg:rpm/redhat/python3-dnf@4.20.0-14.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ea5127ae-01f1-49fe-910c-5b08ab4f4f0d",
+      "type": "library",
+      "name": "python3-dnf-plugins-core",
+      "version": "4.7.0-8.el10",
+      "purl": "pkg:rpm/redhat/python3-dnf-plugins-core@4.7.0-8.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "aa653ccd-0e1c-42b0-9fa7-4aaaf5832f02",
+      "type": "library",
+      "name": "subscription-manager",
+      "version": "1.30.6.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/subscription-manager@1.30.6.1-1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "3e69c1bf-5d7f-4f8e-b90d-fd2880bdaa57",
+      "type": "library",
+      "name": "insights-client",
+      "version": "3.10.1-1.el10_0",
+      "purl": "pkg:rpm/redhat/insights-client@3.10.1-1.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "44aa92ee-7a7a-42c8-9456-2958665302ca",
+      "type": "library",
+      "name": "rhc",
+      "version": "1:0.3.2-1.el10_0",
+      "purl": "pkg:rpm/redhat/rhc@1%3A0.3.2-1.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "3585a851-0fa8-4f5e-8a25-a7e4c45c6717",
+      "type": "library",
+      "name": "dnf-plugins-core",
+      "version": "4.7.0-8.el10",
+      "purl": "pkg:rpm/redhat/dnf-plugins-core@4.7.0-8.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "50316bb4-5103-4e11-ba79-7b8c4d347a0e",
+      "type": "library",
+      "name": "dnf",
+      "version": "4.20.0-14.el10_0",
+      "purl": "pkg:rpm/redhat/dnf@4.20.0-14.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9075298d-be54-4d19-be69-19618730effc",
+      "type": "library",
+      "name": "libknet1-crypto-openssl-plugin",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-crypto-openssl-plugin@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0a188055-7778-4f2f-b324-8b3267b9c7e3",
+      "type": "library",
+      "name": "libknet1-crypto-plugins-all",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-crypto-plugins-all@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6c095fee-09a8-4f37-9232-de020026d2d3",
+      "type": "library",
+      "name": "libknet1-plugins-all",
+      "version": "1.30-1.el10",
+      "purl": "pkg:rpm/redhat/libknet1-plugins-all@1.30-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "533fd0bd-595f-4d34-bfb4-a77c66cd471e",
+      "type": "library",
+      "name": "pcs",
+      "version": "0.12.0-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/pcs@0.12.0-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "142a93a7-4b53-41c9-b801-c67c0cd16d5d",
+      "type": "library",
+      "name": "yum",
+      "version": "4.20.0-14.el10_0",
+      "purl": "pkg:rpm/redhat/yum@4.20.0-14.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b1b3fb70-dd72-4755-a350-2e77818559e3",
+      "type": "library",
+      "name": "yum-utils",
+      "version": "4.7.0-8.el10",
+      "purl": "pkg:rpm/redhat/yum-utils@4.7.0-8.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "51fbb1d9-a090-4069-baee-d1cd2a74ab4b",
+      "type": "library",
+      "name": "redhat-cloud-client-configuration",
+      "version": "1-13.el10",
+      "purl": "pkg:rpm/redhat/redhat-cloud-client-configuration@1-13.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "aea9c921-621b-4e62-91a5-092e81339eb2",
+      "type": "library",
+      "name": "tuned",
+      "version": "2.25.1-2.el10_0",
+      "purl": "pkg:rpm/redhat/tuned@2.25.1-2.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "d1924508-9afc-4dbe-a24e-ab9ac6d0b583",
+      "type": "library",
+      "name": "system-reinstall-bootc",
+      "version": "1.1.6-2.el10_0",
+      "purl": "pkg:rpm/redhat/system-reinstall-bootc@1.1.6-2.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f8b16b21-de05-4ae1-871e-9b5f146845f8",
+      "type": "library",
+      "name": "cloud-init",
+      "version": "24.4-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/cloud-init@24.4-3.el10_0.2?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b910d9d4-dcef-4ef3-9038-8a6b036d219d",
+      "type": "library",
+      "name": "rh-amazon-rhui-client-ha",
+      "version": "4.0.27-1.el10",
+      "purl": "pkg:rpm/redhat/rh-amazon-rhui-client-ha@4.0.27-1.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "698b9df6-54be-4d14-a1b2-d32c90cb79dc",
+      "type": "library",
+      "name": "rpm-plugin-selinux",
+      "version": "4.19.1.1-12.el10",
+      "purl": "pkg:rpm/redhat/rpm-plugin-selinux@4.19.1.1-12.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "28134416-17cf-4253-949a-676e885007fe",
+      "type": "library",
+      "name": "shim-x64",
+      "version": "15.8-5.el10_0",
+      "purl": "pkg:rpm/redhat/shim-x64@15.8-5.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "6ed1e67e-7d55-43bb-9bc3-58ad707019a0",
+      "type": "library",
+      "name": "sssd-kcm",
+      "version": "2.10.2-3.el10_0.2",
+      "purl": "pkg:rpm/redhat/sssd-kcm@2.10.2-3.el10_0.2?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "38864cd6-78bc-4c3c-a9c5-ae3d1a8ce857",
+      "type": "library",
+      "name": "fence-agents-all",
+      "version": "4.16.0-5.el10_0.5",
+      "purl": "pkg:rpm/redhat/fence-agents-all@4.16.0-5.el10_0.5?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c99c9fc4-7304-427e-87ba-0b40d9b98bf3",
+      "type": "library",
+      "name": "crypto-policies-scripts",
+      "version": "20250214-1.gitfd9b9b9.el10_0.1",
+      "purl": "pkg:rpm/redhat/crypto-policies-scripts@20250214-1.gitfd9b9b9.el10_0.1?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "f8d2381d-0e16-440b-aa16-9672b7b3053f",
+      "type": "library",
+      "name": "kernel",
+      "version": "6.12.0-55.34.1.el10_0",
+      "purl": "pkg:rpm/redhat/kernel@6.12.0-55.34.1.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "16da8068-64a0-4600-922e-86265229e776",
+      "type": "library",
+      "name": "NetworkManager-tui",
+      "version": "1:1.52.0-7.el10_0",
+      "purl": "pkg:rpm/redhat/NetworkManager-tui@1%3A1.52.0-7.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "d7a134d7-7d66-4b42-bda5-e828eda55906",
+      "type": "library",
+      "name": "NetworkManager-cloud-setup",
+      "version": "1:1.52.0-7.el10_0",
+      "purl": "pkg:rpm/redhat/NetworkManager-cloud-setup@1%3A1.52.0-7.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "75ad91f6-4e61-4e0c-816c-d729e8843dc3",
+      "type": "library",
+      "name": "grub2-efi-x64",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-efi-x64@1%3A2.12-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "163f481e-fb72-4a6b-a024-df089127fa87",
+      "type": "library",
+      "name": "grub2-pc",
+      "version": "1:2.12-15.el10_0",
+      "purl": "pkg:rpm/redhat/grub2-pc@1%3A2.12-15.el10_0?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=1"
+    },
+    {
+      "bom-ref": "affacea2-52c6-40ec-9932-7b6d08073705",
+      "type": "library",
+      "name": "dracut-config-generic",
+      "version": "105-4.el10_0",
+      "purl": "pkg:rpm/redhat/dracut-config-generic@105-4.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4b5b390f-4146-4c1f-bb43-9685ce22ec69",
+      "type": "library",
+      "name": "cloud-utils-growpart",
+      "version": "0.33-11.el10",
+      "purl": "pkg:rpm/redhat/cloud-utils-growpart@0.33-11.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "9b372b7f-2f6f-47f9-af30-a87b3325f96c",
+      "type": "library",
+      "name": "openssh-server",
+      "version": "9.9p1-7.el10_0",
+      "purl": "pkg:rpm/redhat/openssh-server@9.9p1-7.el10_0?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c9fc10db-d4ea-40f8-a048-31489f52a895",
+      "type": "library",
+      "name": "rsyslog",
+      "version": "8.2412.0-1.el10",
+      "purl": "pkg:rpm/redhat/rsyslog@8.2412.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "739ccac5-816f-493a-b51d-1ef9eab6b01a",
+      "type": "library",
+      "name": "chrony",
+      "version": "4.6.1-1.el10",
+      "purl": "pkg:rpm/redhat/chrony@4.6.1-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a6831af5-7f03-431c-aa90-a88f43b3921a",
+      "type": "library",
+      "name": "microcode_ctl",
+      "version": "4:20250211-1.20250812.1.el10_0",
+      "purl": "pkg:rpm/redhat/microcode_ctl@4%3A20250211-1.20250812.1.el10_0?arch=noarch\u0026distro=rhel-10.0\u0026epoch=4"
+    },
+    {
+      "bom-ref": "84918320-f0ca-4a81-bd34-c834d78da07e",
+      "type": "library",
+      "name": "parted",
+      "version": "3.6-7.el10",
+      "purl": "pkg:rpm/redhat/parted@3.6-7.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4b6fcb8a-a1c2-4883-b431-be333d5f47e2",
+      "type": "library",
+      "name": "authselect",
+      "version": "1.5.0-8.el10",
+      "purl": "pkg:rpm/redhat/authselect@1.5.0-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "ec305cb0-e18c-42e4-8b6e-9b152bcc47d1",
+      "type": "library",
+      "name": "man-db",
+      "version": "2.12.0-8.el10",
+      "purl": "pkg:rpm/redhat/man-db@2.12.0-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "55a63968-47cc-489e-aa8b-f7efa6589830",
+      "type": "library",
+      "name": "initscripts-rename-device",
+      "version": "10.26-2.el10",
+      "purl": "pkg:rpm/redhat/initscripts-rename-device@10.26-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a99e7c89-8db0-4a3e-b61b-6d947f66d11a",
+      "type": "library",
+      "name": "rsync",
+      "version": "3.4.1-2.el10",
+      "purl": "pkg:rpm/redhat/rsync@3.4.1-2.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "0cdd83d2-17d2-442b-88b1-ee6c7689ae2d",
+      "type": "library",
+      "name": "langpacks-en",
+      "version": "4.1-3.el10",
+      "purl": "pkg:rpm/redhat/langpacks-en@4.1-3.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "4042122f-9b43-4d18-8c8d-0af4ae7fece2",
+      "type": "library",
+      "name": "iproute-tc",
+      "version": "6.11.0-1.el10",
+      "purl": "pkg:rpm/redhat/iproute-tc@6.11.0-1.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "bca878fa-873a-4e40-bc1b-b1f65bf39345",
+      "type": "library",
+      "name": "irqbalance",
+      "version": "2:1.9.4-2.el10",
+      "purl": "pkg:rpm/redhat/irqbalance@2%3A1.9.4-2.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "9d8617ca-500e-42e7-902d-dacd9730f425",
+      "type": "library",
+      "name": "efibootmgr",
+      "version": "18-8.el10",
+      "purl": "pkg:rpm/redhat/efibootmgr@18-8.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "89592112-f0d8-44e6-a1fa-daea484d420a",
+      "type": "library",
+      "name": "prefixdevname",
+      "version": "0.2.0-4.el10",
+      "purl": "pkg:rpm/redhat/prefixdevname@0.2.0-4.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "142e7099-6c80-4f19-9c17-347d30a6dc9d",
+      "type": "library",
+      "name": "vim-minimal",
+      "version": "2:9.1.083-5.el10",
+      "purl": "pkg:rpm/redhat/vim-minimal@2%3A9.1.083-5.el10?arch=x86_64\u0026distro=rhel-10.0\u0026epoch=2"
+    },
+    {
+      "bom-ref": "e5dbb09b-8ab4-4338-b6bd-4ba3866eb7b2",
+      "type": "library",
+      "name": "lshw",
+      "version": "B.02.20-6.el10",
+      "purl": "pkg:rpm/redhat/lshw@B.02.20-6.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2d6f30d9-d388-467a-bad3-4b1958aa3326",
+      "type": "library",
+      "name": "libsysfs",
+      "version": "2.1.1-14.el10",
+      "purl": "pkg:rpm/redhat/libsysfs@2.1.1-14.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "80a7087f-54bc-477a-a210-a0eab6267ff0",
+      "type": "library",
+      "name": "lsscsi",
+      "version": "0.32-15.el10",
+      "purl": "pkg:rpm/redhat/lsscsi@0.32-15.el10?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "a35a4c3c-ebbd-4437-9454-8cae7a13ed96",
+      "type": "library",
+      "name": "iwlwifi-dvm-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/iwlwifi-dvm-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "e32bd927-11cf-491e-b68b-7e69fa08a92c",
+      "type": "library",
+      "name": "iwlwifi-mvm-firmware",
+      "version": "20250812-15.7.el10_0",
+      "purl": "pkg:rpm/redhat/iwlwifi-mvm-firmware@20250812-15.7.el10_0?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "47141b33-0f84-440b-95a7-977cd194adad",
+      "type": "library",
+      "name": "rootfiles",
+      "version": "8.1-41.el10",
+      "purl": "pkg:rpm/redhat/rootfiles@8.1-41.el10?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "275491d6-c0fc-427c-8de3-0194a9bd5cd9",
+      "type": "library",
+      "name": "gpg-pubkey",
+      "version": "fd431d51-4ae0493b",
+      "purl": "pkg:rpm/redhat/gpg-pubkey@fd431d51-4ae0493b?distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "8f4ed496-159a-4a27-8fd1-fb9339147dfe",
+      "type": "library",
+      "name": "gpg-pubkey",
+      "version": "5a6340b3-6229229e",
+      "purl": "pkg:rpm/redhat/gpg-pubkey@5a6340b3-6229229e?distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b8be3f1e-528f-4662-8cd4-002a155317b8",
+      "type": "library",
+      "name": "gpg-pubkey",
+      "version": "f21541eb-49a40330",
+      "purl": "pkg:rpm/redhat/gpg-pubkey@f21541eb-49a40330?distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "acc1fe16-16ae-4058-a279-e565b7d60b00",
+      "type": "library",
+      "name": "gpg-pubkey",
+      "version": "00e1c42b-6005e7d7",
+      "purl": "pkg:rpm/redhat/gpg-pubkey@00e1c42b-6005e7d7?distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "2458b124-ce0d-4dd3-aa97-3bd130fdf826",
+      "type": "library",
+      "name": "cnquery",
+      "version": "12.4.0-1",
+      "purl": "pkg:rpm/redhat/cnquery@12.4.0-1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "b496621d-009a-4303-931f-52786bc7ff94",
+      "type": "library",
+      "name": "cnspec",
+      "version": "12.4.0-1",
+      "purl": "pkg:rpm/redhat/cnspec@12.4.0-1?arch=x86_64\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "c7e2ce3b-765a-40a7-a00c-61d0339bb93d",
+      "type": "library",
+      "name": "mondoo",
+      "version": "12.4.0-1",
+      "purl": "pkg:rpm/redhat/mondoo@12.4.0-1?arch=noarch\u0026distro=rhel-10.0"
+    },
+    {
+      "bom-ref": "60d62202-97df-452b-9e1c-584c365c39b1",
+      "type": "library",
+      "name": "attrs",
+      "version": "23.2.0",
+      "purl": "pkg:pypi/attrs@23.2.0"
+    },
+    {
+      "bom-ref": "d5148b9a-2ea5-4190-b2ff-d11df14f3239",
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "purl": "pkg:pypi/charset-normalizer@3.3.2"
+    },
+    {
+      "bom-ref": "37df7095-a55b-4c29-ab1c-d9eb96f57bc8",
+      "type": "library",
+      "name": "cloud-init",
+      "version": "24.4",
+      "purl": "pkg:pypi/cloud-init@24.4"
+    },
+    {
+      "bom-ref": "44fa2505-d200-4ec0-9379-e55b35ce8759",
+      "type": "library",
+      "name": "configobj",
+      "version": "5.0.8",
+      "purl": "pkg:pypi/configobj@5.0.8"
+    },
+    {
+      "bom-ref": "283cb9e4-d787-4e78-a1f9-1b62f0e2059c",
+      "type": "library",
+      "name": "decorator",
+      "version": "5.1.1",
+      "purl": "pkg:pypi/decorator@5.1.1"
+    },
+    {
+      "bom-ref": "af2d07f8-d842-4edc-a25a-57fa66effd24",
+      "type": "library",
+      "name": "distro",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/distro@1.9.0"
+    },
+    {
+      "bom-ref": "84664a28-a771-4cbe-adc9-13dd3ece6f48",
+      "type": "library",
+      "name": "dnf",
+      "version": "4.20.0",
+      "purl": "pkg:pypi/dnf@4.20.0"
+    },
+    {
+      "bom-ref": "9bfd6832-aa80-457d-8b2d-e2b7ddade9c6",
+      "type": "library",
+      "name": "file-magic",
+      "version": "0.4.0",
+      "purl": "pkg:pypi/file-magic@0.4.0"
+    },
+    {
+      "bom-ref": "fa893810-d820-424e-a0a4-8398dab1d8b4",
+      "type": "library",
+      "name": "idna",
+      "version": "3.7",
+      "purl": "pkg:pypi/idna@3.7"
+    },
+    {
+      "bom-ref": "5f5894b5-ed42-452e-8baa-8cb426b9e146",
+      "type": "library",
+      "name": "iniparse",
+      "version": "0.5",
+      "purl": "pkg:pypi/iniparse@0.5"
+    },
+    {
+      "bom-ref": "6e712a22-74aa-432b-8c05-18dbc3782816",
+      "type": "library",
+      "name": "Jinja2",
+      "version": "3.1.6",
+      "purl": "pkg:pypi/Jinja2@3.1.6"
+    },
+    {
+      "bom-ref": "ad9f0c51-c363-47da-8239-a3b3563d83e1",
+      "type": "library",
+      "name": "jsonpatch",
+      "version": "1.33",
+      "purl": "pkg:pypi/jsonpatch@1.33"
+    },
+    {
+      "bom-ref": "4d680372-51e2-4caa-8f39-009f440005ef",
+      "type": "library",
+      "name": "jsonpointer",
+      "version": "2.3",
+      "purl": "pkg:pypi/jsonpointer@2.3"
+    },
+    {
+      "bom-ref": "dcae2079-62fe-4c7d-b816-eb6c81a294e8",
+      "type": "library",
+      "name": "jsonschema",
+      "version": "4.19.1",
+      "purl": "pkg:pypi/jsonschema@4.19.1"
+    },
+    {
+      "bom-ref": "38f10b1d-0df6-468d-998a-69940bffc44c",
+      "type": "library",
+      "name": "jsonschema-specifications",
+      "version": "2023.11.2",
+      "purl": "pkg:pypi/jsonschema-specifications@2023.11.2"
+    },
+    {
+      "bom-ref": "89cf2204-e161-4559-8236-f2cd3f2d8bd1",
+      "type": "library",
+      "name": "oauthlib",
+      "version": "3.2.2",
+      "purl": "pkg:pypi/oauthlib@3.2.2"
+    },
+    {
+      "bom-ref": "b7c339f1-505a-4847-87b3-4e38563597e9",
+      "type": "library",
+      "name": "pcs",
+      "version": "0.12.0",
+      "purl": "pkg:pypi/pcs@0.12.0"
+    },
+    {
+      "bom-ref": "4624ba5f-50da-4cc8-b373-5c25ccda3ac5",
+      "type": "library",
+      "name": "pexpect",
+      "version": "4.9.0",
+      "purl": "pkg:pypi/pexpect@4.9.0"
+    },
+    {
+      "bom-ref": "5c7dffba-847b-4567-be20-a80de69db604",
+      "type": "library",
+      "name": "ply",
+      "version": "3.11",
+      "purl": "pkg:pypi/ply@3.11"
+    },
+    {
+      "bom-ref": "4a8eb48f-50e9-4c2d-afe0-8a4b8d24f410",
+      "type": "library",
+      "name": "ptyprocess",
+      "version": "0.7.0",
+      "purl": "pkg:pypi/ptyprocess@0.7.0"
+    },
+    {
+      "bom-ref": "bf43213c-b4d0-4271-8a77-8e78aae719c0",
+      "type": "library",
+      "name": "pycparser",
+      "version": "2.20",
+      "purl": "pkg:pypi/pycparser@2.20"
+    },
+    {
+      "bom-ref": "799bc41c-f10f-453d-81de-2afa453cf290",
+      "type": "library",
+      "name": "pyinotify",
+      "version": "0.9.6",
+      "purl": "pkg:pypi/pyinotify@0.9.6"
+    },
+    {
+      "bom-ref": "40f9bf43-62f8-4e8a-b081-72692505f43c",
+      "type": "library",
+      "name": "pyparsing",
+      "version": "3.1.1",
+      "purl": "pkg:pypi/pyparsing@3.1.1"
+    },
+    {
+      "bom-ref": "fdb7efe1-20a4-4d7a-9f98-1d52e1dce1b7",
+      "type": "library",
+      "name": "pyserial",
+      "version": "3.5",
+      "purl": "pkg:pypi/pyserial@3.5"
+    },
+    {
+      "bom-ref": "94260723-3d1b-4265-b052-653934b2fbed",
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0"
+    },
+    {
+      "bom-ref": "13e7c878-31a3-4b49-b612-5f5b21d606ec",
+      "type": "library",
+      "name": "python-linux-procfs",
+      "version": "0.7.3",
+      "purl": "pkg:pypi/python-linux-procfs@0.7.3"
+    },
+    {
+      "bom-ref": "945a9d98-a676-4526-911e-dfdb93258b25",
+      "type": "library",
+      "name": "pyudev",
+      "version": "0.24.1",
+      "purl": "pkg:pypi/pyudev@0.24.1"
+    },
+    {
+      "bom-ref": "7d648334-712e-4662-b846-5100f0fe51b2",
+      "type": "library",
+      "name": "pyynl",
+      "version": "0.0.1",
+      "purl": "pkg:pypi/pyynl@0.0.1"
+    },
+    {
+      "bom-ref": "8eabfe0d-726e-4d32-86af-94f565f7f62d",
+      "type": "library",
+      "name": "referencing",
+      "version": "0.31.1",
+      "purl": "pkg:pypi/referencing@0.31.1"
+    },
+    {
+      "bom-ref": "f59d7ff5-3414-44b5-86b2-31accc98693e",
+      "type": "library",
+      "name": "requests",
+      "version": "2.32.4",
+      "purl": "pkg:pypi/requests@2.32.4"
+    },
+    {
+      "bom-ref": "f0d4c061-5583-450b-93f1-d7e16f04386a",
+      "type": "library",
+      "name": "sepolicy",
+      "version": "3.8",
+      "purl": "pkg:pypi/sepolicy@3.8"
+    },
+    {
+      "bom-ref": "ad80648c-d9ed-4dce-a249-c0c9d04891b8",
+      "type": "library",
+      "name": "setuptools",
+      "version": "69.0.3",
+      "purl": "pkg:pypi/setuptools@69.0.3"
+    },
+    {
+      "bom-ref": "c9e6a408-5ce8-4d71-833e-21c77443c27c",
+      "type": "library",
+      "name": "six",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/six@1.16.0"
+    },
+    {
+      "bom-ref": "0ec7704c-a336-418b-9b44-5d9d8bd5a858",
+      "type": "library",
+      "name": "urllib3",
+      "version": "1.26.19",
+      "purl": "pkg:pypi/urllib3@1.26.19"
+    },
+    {
+      "bom-ref": "4ed5fe04-10ca-419e-863d-1ad636f0dece",
+      "type": "library",
+      "name": "MarkupSafe",
+      "version": "2.1.3",
+      "purl": "pkg:pypi/MarkupSafe@2.1.3"
+    },
+    {
+      "bom-ref": "29963051-3cd9-4629-8a8d-9be8e160cdd3",
+      "type": "library",
+      "name": "PyGObject",
+      "version": "3.46.0",
+      "purl": "pkg:pypi/PyGObject@3.46.0"
+    },
+    {
+      "bom-ref": "ed014d40-bd4a-4844-82e9-3c603e159959",
+      "type": "library",
+      "name": "PyYAML",
+      "version": "6.0.1",
+      "purl": "pkg:pypi/PyYAML@6.0.1"
+    },
+    {
+      "bom-ref": "7273c928-52b9-44ed-a5f7-c3bb0f1c846c",
+      "type": "library",
+      "name": "cffi",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/cffi@1.16.0"
+    },
+    {
+      "bom-ref": "16fcfeaf-f2e3-45f6-87c0-d7c4ed7fa61b",
+      "type": "library",
+      "name": "cryptography",
+      "version": "43.0.0",
+      "purl": "pkg:pypi/cryptography@43.0.0"
+    },
+    {
+      "bom-ref": "cb8a8e50-66b6-423b-a060-ddb07c87f168",
+      "type": "library",
+      "name": "dbus-python",
+      "version": "1.3.2",
+      "purl": "pkg:pypi/dbus-python@1.3.2"
+    },
+    {
+      "bom-ref": "2668f5c6-122a-4594-8496-c0418ea43d8e",
+      "type": "library",
+      "name": "libcomps",
+      "version": "0.1.21",
+      "purl": "pkg:pypi/libcomps@0.1.21"
+    },
+    {
+      "bom-ref": "669fa1b0-d622-444c-b4da-779ed80cae94",
+      "type": "library",
+      "name": "libdnf",
+      "version": "0.73.1",
+      "purl": "pkg:pypi/libdnf@0.73.1"
+    },
+    {
+      "bom-ref": "3423872e-2c25-43d4-8556-cb75eceb47d3",
+      "type": "library",
+      "name": "lxml",
+      "version": "5.2.1",
+      "purl": "pkg:pypi/lxml@5.2.1"
+    },
+    {
+      "bom-ref": "b13bc61e-a665-42a9-85af-5dbd903305af",
+      "type": "library",
+      "name": "perf",
+      "version": "0.1",
+      "purl": "pkg:pypi/perf@0.1"
+    },
+    {
+      "bom-ref": "e7cc0d56-0768-414d-9286-ec5d84b13337",
+      "type": "library",
+      "name": "rpds-py",
+      "version": "0.17.1",
+      "purl": "pkg:pypi/rpds-py@0.17.1"
+    },
+    {
+      "bom-ref": "6a1fdef1-8c8f-4a98-882f-51d8b0beb7a9",
+      "type": "library",
+      "name": "rpm",
+      "version": "4.19.1.1",
+      "purl": "pkg:pypi/rpm@4.19.1.1"
+    },
+    {
+      "bom-ref": "a007c5d4-d3c8-4b34-94a2-c6a89716d1ca",
+      "type": "library",
+      "name": "selinux",
+      "version": "3.8",
+      "purl": "pkg:pypi/selinux@3.8"
+    },
+    {
+      "bom-ref": "b968ed13-dc8e-42bf-81a7-c3ac79edbb0f",
+      "type": "library",
+      "name": "setools",
+      "version": "4.5.1",
+      "purl": "pkg:pypi/setools@4.5.1"
+    },
+    {
+      "bom-ref": "fe85e5e4-0356-416c-8a97-8c28ef613fa5",
+      "type": "library",
+      "name": "subscription-manager",
+      "version": "1.30.6.1",
+      "purl": "pkg:pypi/subscription-manager@1.30.6.1"
+    },
+    {
+      "bom-ref": "b7962016-9353-4116-b09d-f655a1621105",
+      "type": "library",
+      "name": "systemd-python",
+      "version": "235",
+      "purl": "pkg:pypi/systemd-python@235"
+    },
+    {
+      "bom-ref": "09584506-d788-4f9a-9906-e6dd3a35e542",
+      "type": "library",
+      "name": "tornado",
+      "version": "6.4.2",
+      "purl": "pkg:pypi/tornado@6.4.2"
+    }
+  ]
+}
