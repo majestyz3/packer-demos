@@ -5,7 +5,7 @@
   become: true
 
   tasks:
-    - name: install Apache
+    - name: installing podman
       package:
-        name: 'httpd'
+        name: "podman"
         state: present
