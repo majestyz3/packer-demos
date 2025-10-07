@@ -20,16 +20,17 @@ variable "associate_public_ip_address" {
   default     = true
 }
 
-data "hcp-packer-version" "rhel-base" {
-  bucket_name  = "rhel-base"
-  channel_name = "latest"
-}
 
-data "hcp-packer-artifact" "example" {
-  bucket_name         = data.hcp-packer-version.rhel-base.bucket_name
-  version_fingerprint = data.hcp-packer-version.rhel-base.fingerprint
-  platform            = "aws"
-  region              = var.aws_region
+data "amazon-ami" "rhel_10" {
+  region = var.aws_region
+  filters = {
+    virtualization-type = "hvm"
+    name                = "RHEL_HA-10.0.0_HVM-*-x86_64-0-Hourly2-GP3"
+    root-device-type    = "ebs"
+
+  }
+  owners      = ["309956199498"]
+  most_recent = true
 }
 
 source "amazon-ebs" "rhel_10" {

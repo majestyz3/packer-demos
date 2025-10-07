@@ -20,6 +20,19 @@ variable "associate_public_ip_address" {
   default     = true
 }
 
+data "hcp-packer-version" "rhel-base" {
+  bucket_name  = "rhel-base"
+  channel_name = "latest"
+}
+
+data "hcp-packer-artifact" "example" {
+  bucket_name         = data.hcp-packer-version.rhel-base.bucket_name
+  version_fingerprint = data.hcp-packer-version.rhel-base.fingerprint
+  platform            = "aws"
+  region              = var.aws_region
+}
+
+
 
 data "amazon-ami" "rhel_10" {
   region = var.aws_region
