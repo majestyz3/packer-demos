@@ -20,7 +20,8 @@ variable "associate_public_ip_address" {
   default     = true
 }
 
-
+// Pulling the latest RHEL 10.0.0 AMI from AWS Marketplace
+// Using the AWS Owner ID
 data "amazon-ami" "rhel_10" {
   region = var.aws_region
   filters = {
@@ -33,6 +34,11 @@ data "amazon-ami" "rhel_10" {
   most_recent = true
 }
 
+
+// Very basic source setup. 
+// This will generate its own SSH keypair
+// This will generate a temporary security group.
+// AMI Name is relatively static for demo purposes, but could be make more dynamic with a timestamp or version variable.
 source "amazon-ebs" "rhel_10" {
   region                      = var.aws_region
   source_ami                  = data.amazon-ami.rhel_10.id
