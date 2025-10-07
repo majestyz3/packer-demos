@@ -48,9 +48,16 @@ I'll lean on AWS for most of these demos, so you'll need an AWS account with app
 
 3. Running a Demo: 
 
+I run mine with the `force` flag since I do not dynamically update the AMI name. 
+
 > *Note: You will need to update the `example.pkvars.hcl` file with your specific values before running the demo.*
 
     ```sh
-    packer init ./ansible/base/.
-    packer build -force -var-file=example.pkvars.hcl ./ansible/base/.
+    cd ./ansible/base/
+    packer init .
+    packer build -force -var-file=example.pkvars.hcl .
     ```
+
+4. Cleaning Up:
+
+There is no automated cleanup process, so please ensure you manually delete any resources created during the demos to avoid unnecessary costs.
