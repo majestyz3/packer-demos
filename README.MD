@@ -31,6 +31,8 @@ I'll lean on AWS for most of these demos, so you'll need an AWS account with app
 
 ## Getting Started
 
+This is more general guidance, I'll add specific instructions in the respective demo directories.
+
 1. Clone the repository:
     ```sh
     git clone https://github.com/benjamin-lykins/packer-demos.git
@@ -52,7 +54,9 @@ I'll lean on AWS for most of these demos, so you'll need an AWS account with app
 
 3. Running a Demo: 
 
-I run mine with the `force` flag since I do not dynamically update the AMI name. 
+I run mine with the `force` flag since I do not dynamically update the AMI name in this demo. 
+With it, it will override the existing AMI, but HCP Packer will have a new version. 
+This isn't typical in production.
 
 > *Note: You will need to update the `example.pkvars.hcl` file with your specific values before running the demo.*
 
