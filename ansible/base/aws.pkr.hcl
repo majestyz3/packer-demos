@@ -1,3 +1,9 @@
+variable "aws_region" {
+  type        = string
+  description = "The AWS region to create resources in"
+  default     = "us-east-2"
+}
+
 variable "vpc_id" {
   type        = string
   description = "The VPC ID to launch the instance in"
@@ -16,7 +22,7 @@ variable "associate_public_ip_address" {
 
 
 data "amazon-ami" "rhel_10" {
-    region = "us-east-2"
+  region = var.aws_region
   filters = {
     virtualization-type = "hvm"
     name                = "RHEL_HA-10.0.0_HVM-*-x86_64-0-Hourly2-GP3"
@@ -28,7 +34,7 @@ data "amazon-ami" "rhel_10" {
 }
 
 data "amazon-ami" "rhel_9" {
-    region = "us-east-2"
+  region = var.aws_region
   filters = {
     virtualization-type = "hvm"
     name                = "RHEL-9.5.0_HVM-*-x86_64-0-Hourly2-GP3"
@@ -40,7 +46,7 @@ data "amazon-ami" "rhel_9" {
 }
 
 source "amazon-ebs" "rhel_10" {
-  region                      = "us-east-2"
+  region                      = var.aws_region
   source_ami                  = data.amazon-ami.rhel_10.id
   instance_type               = "t2.large"
   ssh_username                = "ec2-user"
@@ -52,7 +58,7 @@ source "amazon-ebs" "rhel_10" {
 }
 
 # source "amazon-ebs" "rhel_9" {
-#   region                      = "us-east-2"
+#   region                      = var.aws_region
 #   source_ami                  = data.amazon-ami.rhel_9.id
 #   instance_type               = "t2.large"
 #   ssh_username                = "ec2-user"

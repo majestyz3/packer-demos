@@ -17,14 +17,14 @@ build {
     # "source.amazon-ebs.rhel_9"
   ]
 
-#   provisioner "shell" {
-#     inline = [
-#       "sudo yum install -y httpd",
-#       "sudo systemctl enable httpd"
-#     ]
-#   }
+  #   provisioner "shell" {
+  #     inline = [
+  #       "sudo yum install -y httpd",
+  #       "sudo systemctl enable httpd"
+  #     ]
+  #   }
 
-// Add Mondoo SBOM generation
+  // Add Mondoo SBOM generation
   provisioner "shell" {
     inline = [
       "bash -c \"$(curl -sSL https://install.mondoo.com/sh)\"",
@@ -36,7 +36,7 @@ build {
     playbook_file = "playbook.yml"
   }
 
-    provisioner "hcp-sbom" {
+  provisioner "hcp-sbom" {
     source      = "/tmp/sbom_cyclonedx.json"
     destination = "./sbom"
     sbom_name   = "sbom-cyclonedx"
