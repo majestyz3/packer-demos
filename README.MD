@@ -2,6 +2,10 @@
 
 This repository contains various demos and examples for using [HashiCorp Packer](https://developer.hashicorp.com/packer).
 
+As of now, just two quick demos. 
+
+
+
 ## Prerequisites
 
 Following are needed as of now, if anything additional is required, I'll update this section.

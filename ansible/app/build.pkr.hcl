@@ -1,5 +1,5 @@
 hcp_packer_registry {
-  bucket_name = "rhel-docker"
+  bucket_name = "rhel-base"
 
   description = <<EOT
 Some nice description about the image which artifact is being published to HCP Packer Registry. =D
