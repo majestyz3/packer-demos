@@ -1,0 +1,9 @@
+# Example variable file
+# Copy this file to example.auto.tfvars and fill in if desired.
+
+aws_region = "us-east-1"
+
+# Optional overrides. Leave commented to use defaults.
+# subnet_id         = "subnet-xxxxxxxxxxxxxxxxx"
+# security_group_id = "sg-xxxxxxxxxxxxxxxxx"
+# instance_type     = "t3.micro"

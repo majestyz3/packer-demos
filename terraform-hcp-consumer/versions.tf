@@ -13,10 +13,10 @@ terraform {
   }
 
   # If you’ll run this in HCP Terraform, fill these in and remove if using local CLI state
-  cloud {
-    organization = "hashicorp-zarkesh"
-    workspaces {
-      name = "hcp-packer-ht-demo"
-    }
+    cloud {
+    organization = "YOUR_REAL_ORG"   # e.g., "majestyZ3"
+    # Optional project targeting:
+    # workspaces { project = "Packer_D", name = "hcp-packer-ht-demo" }
+    workspaces { name = "hcp-packer-ht-demo" }
   }
 }

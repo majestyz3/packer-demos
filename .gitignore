@@ -1,9 +1,15 @@
+# ------------------------------------------------------------------------------
+# General Auto-Generated and Temporary Files
+# ------------------------------------------------------------------------------
 *sbom*
 *auto*
 
-# Terraform
+# ------------------------------------------------------------------------------
+# Terraform Artifacts
+# ------------------------------------------------------------------------------
 *.tfstate
 *.tfstate.*
+*.tfplan
 crash.log
 crash.*.log
 .terraform/
@@ -11,16 +17,25 @@ crash.*.log
 terraform.rc
 .terraform.lock.hcl
 .terraform.tfstate*
-*.tfplan
 
-# Local-only config
+# ------------------------------------------------------------------------------
+# Local Configuration and Secrets
+# These should not be committed. They contain local values, credentials,
+# or org-specific setup (e.g. versions.tf and real tfvars files).
+# ------------------------------------------------------------------------------
 *.auto.tfvars
 *.tfvars
-!example.auto.tfvars.example        # keep the example
-versions.tf                         # user-specific org/workspace
-!versions.example.tf                # keep the example
+versions.tf
 
-# Editor & system files
+# ------------------------------------------------------------------------------
+# Example / Template Files (keep these for onboarding)
+# ------------------------------------------------------------------------------
+!example.auto.tfvars.example
+!versions.tf.example
+
+# ------------------------------------------------------------------------------
+# IDE and System Files
+# ------------------------------------------------------------------------------
 .vscode/
 .idea/
 .DS_Store
