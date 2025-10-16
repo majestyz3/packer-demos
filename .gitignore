@@ -1,2 +1,27 @@
 *sbom*
 *auto*
+
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+.terraform/
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+.terraform.tfstate*
+*.tfplan
+
+# Local-only config
+*.auto.tfvars
+*.tfvars
+!example.auto.tfvars.example        # keep the example
+versions.tf                         # user-specific org/workspace
+!versions.example.tf                # keep the example
+
+# Editor & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
